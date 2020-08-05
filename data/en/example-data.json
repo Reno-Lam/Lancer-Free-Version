@@ -1,0 +1,20 @@
+{
+	"example-data": [
+		{
+			"name": "Pen",
+			"type": "tool",
+			"custom-key": "This is a pen",
+			"entries": [
+				"This is the main context of the entry."
+			]
+		},
+		{
+			"name": "Apple",
+			"type": "food",
+			"custom-key": "This is an apple",
+			"entries": [
+				"An apple a day, keep the doctor away."
+			]
+		}
+	]
+}

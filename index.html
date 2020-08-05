@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tw" ng-app="myApp" ng-controller="myCtrl">
+
+<head>
+	<!--5ETOOLS_VERSION-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery-ui-slider-pips.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.ico">
+
+	<script type="text/javascript" src="lang/lang.bundle.js"></script>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-slider-pip.js"></script>
+	<script type="text/javascript" src="js/languageparser.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+</head>
+<body>
+<!--Navigation Bar-->
+<header class="hidden-xs hidden-sm page__header">
+	<div class="container">
+		<h1 class="page__title page__title--home"></h1>
+		<p class="page__subtitle"></p>
+	</div>
+</header>
+<nav class="container page__nav" id="navigation">
+	<ul class="nav nav-pills" id="navbar"></ul>
+</nav>
+
+<!--Main Block-->
+<main class="container">
+	<div id="intro_block" class="stats stats-book" style="background: none; padding: 5px;"></div>
+</main>
+<footer class="container"></footer>
+
+<!--SCRIPT_ANCHOR-->
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/render.js"></script>
+<script type="text/javascript">
+	var app = angular.module('myApp', []);
+	app.controller('myCtrl', function($scope) {
+		$scope.FMT = FMT;
+	});
+	document.title = FMT("site_title");
+	$(".page__title").html(   FMT("site_title"));
+	$(".page__subtitle").html(FMT("site_desc"));
+	$("#intro_block").html(FMT("intro_block"));
+
+</script>
+</body>
+</html>

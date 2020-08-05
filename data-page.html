@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tw" ng-app="myApp" ng-controller="myCtrl">
+
+<head>
+	<!--5ETOOLS_VERSION-->
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery-ui-slider-pips.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.ico">
+
+	<script type="text/javascript" src="lang/lang.bundle.js"></script>
+	<script type="text/javascript" src="lib/localforage.js"></script>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-slider-pip.js"></script>
+	<script type="text/javascript" src="lib/list.js"></script>
+	<script type="text/javascript" src="js/languageparser.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+</head>
+<body>
+<div class="viewport-wrapper">
+	<header class="hidden-xs hidden-sm page__header">
+		<div class="container">
+			<h1 class="page__title">{{FMT("title_condition")}}</h1>
+			<p class="page__subtitle">{{FMT("search_subtitle")}}</p>
+		</div>
+	</header>
+	<nav class="container page__nav" id="navigation">
+		<ul class="nav nav-pills" id="navbar">
+		</ul>
+	</nav>
+
+	<div class="container view-col-wrapper">
+		<div class="view-col" style="flex:1;">
+			<div id="sublistcontainer" class="sublist sublist--resizable">
+				<div id="sublistsort" class="sortlabel btn-group"></div>
+				<ul class="list subentries">
+					<!-- populate with JS -->
+				</ul>
+			</div>
+
+			<div id="listcontainer" class="view-col" style="height:100%;">
+				<div class="input-group" id="filter-search-input-group">
+					<input type="search" id="search" class="search form-control" placeholder="{{FMT('search_placeholder', token)}}">
+					<span class="input-group-btn"><button class="btn btn-default" id="reset">{{FMT("search_reset")}}</button></span>
+				</div>
+				<div id="filtertools" class="sortlabel btn-group"></div>
+				<ul class="list entries"></ul>
+			</div>
+		</div>
+
+		<div id="contentwrapper" class="view-col" style="flex:2;">
+			<div class="wrp-stat-tab">
+				<div id="tabs-right"></div>
+			</div>
+			<div class="wrp-stats-table">
+			<table id="pagecontent" class="stats">
+				<tr><th class="border" colspan="6"></th></tr>
+				<tr><td colspan="6" class="initial-message">{{ FMT("context_default_text", token) }}</td></tr>
+				<tr><th class="border" colspan="6"></th></tr>
+			</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--SCRIPT_ANCHOR-->
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
+<script type="text/javascript" src="js/render.js"></script>
+<script type="text/javascript" src="js/customRender.js"></script>
+<script type="text/javascript" src="js/datapageBuilder.js"></script>
+<script type="text/javascript">
+	var app = angular.module('myApp', []);
+	app.controller('myCtrl', function($scope) {
+		$scope.FMT = FMT;
+		$scope.token = "example-data";
+	});
+	$(".page__title").html(   FMT("title_exampleData"));
+	$(".page__subtitle").html(FMT("site_desc"));
+	
+	// Data page Setting
+	const JSON_URL = "example-data.json";
+	const CUSTOM_RENDERER = Renderer.exampleData;
+	const CUSTOM_TOKEN = "example-data";
+	const DATA_LIST_ITEM_SETTING_ARR = [
+		{ key: "name", width: "3", display: "ColumnA"},
+		{ key: "type", width: "2", display: "ColumnB"},
+		{ key: "custom-key", width: "7", display: "ColumnC"}];
+	const DEFAULT_SORT = "type";
+	
+	// List item
+	function getGeneralListItem (entry) {
+		var name = entry.translate_name? entry.translate_name: entry.name;
+		var type = entry.type;
+		var customKey = entry["custom-key"];
+
+		return `
+				<span class="name col-3">${name}</span>
+				<span class="type col-2 text-align-center">${type}</span>
+				<span class="contain col-7">${customKey}</span>
+			`;
+	}
+
+IS_LOCAL_TEST = false;
+function getFakeData(){
+	return {};
+}
+
+</script>
+</body>
+
+</html>

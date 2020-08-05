@@ -1,0 +1,60 @@
+{
+"nav_home": "首頁",
+"title_license": "授權",
+"nav_settings": "設置",
+"day_mode": "白晝模式",
+"night_mode": "夜晚模式",
+"set_language": "更改語言",
+
+"util_popout": "彈出視窗",
+"util_pin": "釘選",
+"util_pin_toggle": "釘選(開/關)",
+"util_unpin": "解除釘選",
+"util_clearpins": "清除釘選",
+"util_downloadjson": "下載列表JSON",
+"util_uploadjson": "上傳列表JSON",
+"util_shift_link": "按住SHIFT以獲得列表連結",
+"util_shift_add_only": "按住SHIFT以追加列表",
+
+"search_reset": "重置",
+"search_placeholder": "尋找{0}...",
+"search_subtitle": "使用左側的名稱搜尋，點擊項目名稱以在右側顯示。",
+"search_jk_navigate": "按下J/K以巡覽列。",
+"context_default_text": "從列表中選擇一個{0}以在此處檢視",
+"context_loading": "讀取中...",
+"book_view_entire": "檢視完整文件",
+"book_prev": "上一頁",
+"book_next": "下一頁",
+"book_back_to_top": "回到最頂",
+"example": "範例",
+"options": "選項",
+"none": "無",
+"msg_copylink": "複製段落連結",
+
+
+"site_title": "The website title",
+"site_desc": "and the website description.",
+"intro_block": {
+	"type": "section",
+	"entries": [
+		"Here you can write some introduction for the website & game it self.",
+		{
+			"type": "section",
+			"name": "Introduction",
+			"entries": [
+				"And the paragraph here. The structure is the same as document.json.",
+				{
+					"type": "list",
+					"items":[
+						"And yes, the bullet point.",
+						"2",
+						"3"
+					]
+				}
+			]
+		}
+	]
+},
+"...": "..."
+
+}
