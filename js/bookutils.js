@@ -449,7 +449,6 @@ const BookUtil = {
 			if(!data) throw new Error(`Cannot load data`);
 
 			// Handle Reference Index
-			if(BookUtil.contentObj.html() == ""){
 				let tmpString = "";
 				BookUtil.bookIndex = [data.reference];
 				for (let i = 0; i < BookUtil.bookIndex.length; i++) {
@@ -458,7 +457,6 @@ const BookUtil = {
 				}
 				BookUtil.contentObj.append(tmpString);
 				BookUtil.addHeaderHandles(true);
-			}
 			var allContents = $(`.contents-item`);
 			BookUtil.thisContents = allContents.filter(`[data-bookid="${UrlUtil.encodeForHash(bookId)}"]`);
 			BookUtil.thisContents.show();
