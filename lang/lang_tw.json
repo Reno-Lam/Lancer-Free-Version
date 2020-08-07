@@ -41,7 +41,8 @@
 		{
 					"type": "image",
 					"href": {
-						"path": "https://img.itch.zone/aW1nLzI3MzE0ODYuanBn/original/PF05J1.jpg"
+						"type": "internal",
+						"path": "img/Cover.jpg"
 					},
 					"width": "50%",
 					"height": "50%"
