@@ -15,8 +15,8 @@
 					{ "translate_name": "你需要些甚麼？", "name": "What You Need" },
 					{ "translate_name": "金科玉律", "name": "The Golden Rules" },
 					{ "translate_name": "故事描述和機甲戰鬥", "name": "Narrative Play and Mech Combat" },
-					{ "translate_name": "技能判定、攻擊、和豁免", "name": "Skill Checks, Attacks, and Saves" },
-					{ "translate_name": "任務、休息時間、和場景", "name": "Missions, Downtime, and Scenes" }
+					{ "translate_name": "技能判定、攻擊和豁免", "name": "Skill Checks, Attacks, and Saves" },
+					{ "translate_name": "任務、休息時間和場景", "name": "Missions, Downtime, and Scenes" }
 				]
 			}
 		]
@@ -83,101 +83,101 @@
 					"type": "entries",
 					"translate_name": "金科玉律", "name": "The Golden Rules",
 					"entries": [
-						"There are two golden rules to remember when playing Lancer:",
-						"{@b I: Specific rules override general statements and rules.}",
+						"在玩《Lancer》時，有兩條金科玉律須要記著：",
+						"{@b 1. 特例勝於通例。}",
 						{
 							"type": "quote",
 							"entries": [
-								"For example, when you shoot at an enemy, your roll is normally influenced by whether they’re in cover; however, SEEKING weapons ignore cover. Because the SEEKING tag is a specific rule, it supersedes the general rules governing cover."
+								"比方說，當你攻擊敵人時，你的擲骰結果通常也受他們是否受到掩護影響。不過，{@b 導引}武器忽略掩護。由於{@b 導引}標籤為特例，因此它勝過掩護相關的通例。"
 							]
 						},
-						"{@b II: Always round up (to the nearest whole number).}"
+						"{@b 2. 永遠無條件進位至最接近整數。}"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "故事描述和機甲戰鬥", "name": "Narrative Play and Mech Combat",
 					"entries": [
-						"Lancer makes a distinction between freeform {@b narrative play} and {@b mech combat}, in which tracking individual turns and actions is important.",
-						"During narrative play, players act naturally and spontaneously as needed. Time might pass more quickly, scenes might be shorter, and individual rolls might count for more or less. Most of your game’s story and interaction between characters will take place during narrative play. In mech combat, players act on their turn and are restricted in what they can do and how often, making each action much more impactful and tactical. Swapping between mech combat and narrative play is fairly natural, especially if you’ve played other games with turn-based combat.",
-						"The reason there are two types of play is that they represent different approaches to storytelling in roleplaying games. One, narrative play, is focused on the story and characters, with a rules-light approach to conflict resolution; the other, mech combat, relies more on rules and tactics, like a board game.",
-						"Depending on your GM and group of players, you could spend a whole session in one type of play or the other, or with some of both.",
-						"Neither of these is the “correct” way to play the game. Groups will find a balance between the two that works for them. Lancer provides rules for both so that both people who like to explore stories or who enjoy tactical combat will have an enjoyable experience."
+						"《Lancer》視無規則的{@b 故事描述}和須要追蹤回合數和行動的{@b 機甲戰鬥}為不同的事。",
+						"在故事描述時，玩家自然自發地行動。時間可能過得較快，場景可能較短，而擲骰的結果影響亦可大可小。這的遊戲的故事和角色間的互動，大部份也會發生在故事描述中。在機甲戰鬥中，玩家會在他們的回合行動，而他們能做甚麼事和多常做事也會受限。在故事描述和機甲戰鬥間的切換通常也會相當自然，尤其是如果你有玩過其他包含回合制戰鬥的遊戲的話。",
+						"會有這兩種玩法的原因是它們代表了在角色扮演遊戲中，不同的扮演手法。故事描述專注在故事和角色身上，並且偏好使用簡單規則來解決衝突；機甲戰鬥則較依賴規則和戰術，而比較接近版圖遊戲。",
+						"視乎你的GM和玩家們，你可能會在整場遊戲裡也只用其中一種玩法，或是兩者也有。",
+						"哪種方式玩這個遊戲並沒有單一的答案。玩家們會須要自己找適合自己的方式。《Lancer》為兩種玩法也提供了相應的規則，讓無論是偏好探索故事或是戰術戰鬥的人也能夠享受這遊戲。"
 					]
 				},
 				{
 					"type": "entries",
-					"translate_name": "技能判定、攻擊、和豁免", "name": "Skill Checks, Attacks, and Saves",
+					"translate_name": "技能判定、攻擊和豁免", "name": "Skill Checks, Attacks, and Saves",
 					"entries": [
-						"There are three types of dice rolls in Lancer: {@b skill checks}, {@b attacks}, and {@b saves}.",
-						"In narrative play, you will only need to worry about the first of these. In mech combat you will use all three.",
-						"You make {@b skill checks} when your character is in a challenging or tense situation that requires effort to overcome. When you want to act in such a situation, state your objective (e.g., break down the door, decrypt the data, or sweet-talk the guard), then roll {@b 1d20}, and add any relevant bonuses. On a total of {@b 10+}, you succeed. A result of {@b 9 or less} means you failed to accomplish your goal and may suffer consequences as a result. Although the GM can’t change the target number ({@b 10}), they have access to several tools that are explained later (p. 45-47), such as declaring a skill challenge or deciding that your action is {@b DIFFICULT} or {@b RISKY}.",
-						"In mech combat, {@b attacks} are any offensive actions against other characters, like firing a weapon or hacking into an opponent’s mech. Attack rolls are similar to skill checks – you roll {@b 1d20} and add any bonuses – but the target number isn’t always {@b 10}, and usually depends on the defensive capabilities of your target. For an attack to be successful it needs to equal or exceed the target’s defense. Successful attacks are described as “{@b hits}” - so if the rules tell you that an effect happens “{@b on hit}”, that means it takes place when you make a successful attack. Some attacks also result in {@b critical hits}. On a roll of {@b 20+} you perform a critical hit, which allows you to deal more damage or sometimes trigger extra effects.",
-						"Although there are different types of attacks, including ranged, melee, and tech attacks, they all use the same basic rules described here.",
-						"Lastly, {@b saves} are rolls made to avoid or resist negative effects in mech combat. You might roll a save to prevent a hacker wrecking your systems, to avoid being blinded by a flash grenade, or to dive away from an explosion. To save, you roll {@b 1d20} and add any bonuses, but the target number can differ from {@b 10} as it can with attacks. The target number for a save usually depends on the abilities of the attacker. If you equal or exceed this number, you succeed; if your roll is lower, you fail. The outcome of each result will depend on what you are trying to avoid.",
+						"《Lancer》裡有三種不同的擲骰判定：{@b 技能判定}、{@b 攻擊判定}和{@b 豁免判定}。",
+						"在故事描述裡，你只須要擔心技能判定，而在機甲戰鬥裡則三者也不可或缺。",
+						"當你的角色須要努力突破挑戰或是緊急情況時，你須要進行{@b 技能判定}。當你想要在這些情況下行動時，你須要說明你的目標（像是撞門、解密或是奉承門衛），然後擲{@b 1d20}，並且加上任何有關的加成。當總和{@b 達到10}時，你將成功通過判定。總和{@b 未達10}則代表你無法達成你的目標，並且可能因而嚐到苦果。儘管GM無法改變目標數值（{@b 10}），他們可使用不同工具，像是宣告這為技能挑戰，或是斷定你的行動是{@b 困難}或{@b 危險}。",
+						"在機甲戰鬥中，{@b 攻擊}指任何對其他角色的敵對行動，像是使用武器或是駭進對手的機甲裡。攻擊判定和技能判定相似——你擲{@b 1d20}後加上任何加成——但目標數字並不一定是{@b 10}，而通常取決於你的目標的防衛能力。攻擊要成功，它的骰數總和須等於或高於目標的防禦。成功的攻擊稱為{@b 「命中」（hits）}，所以如果規則告訴你在「{@b 命中時}」會觸發效果的話，那代表它會在你成功進行攻擊時發生。有些攻擊也會導致會心一擊。當你的骰數總和{@b 達到20}的話，你將造成會心一擊，讓你能夠造成更大的傷害，或是偶然觸發附加效果。",
+						"儘管有各種不同的攻擊，包括遠距、肉搏和科技攻擊，它們全都使用上列的基本規則。",
+						"最後，{@b 豁免（save）}判定是用來在機甲戰鬥時被免或是抵抗負面效果的判定。你也許須要進行豁免判定來阻止駭客駭進你的系統、避免閃光彈致盲，或是避開爆炸。要進行豁免判定，你須要擲{@b 1d20}並加上任何的加成，但和攻擊一樣，目標數字可以不是{@b 10}。豁免判定的目標數字通常取決於攻擊者的能力。如果你的骰數總和達到目標數字的話，你成功通過了判定；但如果你的骰數總和小於目標數字的話，你的豁免判定就失敗了。每一個判定的結果，也取決於你想要避開怎樣的事。",
 						{
 							"type": "entries",
-							"name": "Contested Checks",
+							"translate_name": "對抗判定", "name": "Contested Checks",
 							"entries": [
-								"In some cases, the rules will tell you to make a {@b contested check}, representing a challenge between two parties. In a contested check, both participants make skill checks and add any bonuses. Whoever has the highest result wins. If the result is a tie, the attacker – the one who initiated the contest – wins.",
-								"You might make contested checks in both narrative play and mech combat."
+								"在某些情況下，規則會要求你進行{@b 對抗判定}以代表雙方對壘。在對抗判定中，雙方也進行技能判定並加上任何的加成，並由總和較高者勝出。如果總和相等的話，攻擊者——也就是觸發這判定的一方——勝出。",
+								"你在故事描述和機甲戰鬥中也可能會作對抗判定。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Choosing to Fail",
+							"translate_name": "選擇失敗", "name": "Choosing to Fail",
 							"entries": [
-								"You may always choose to fail a skill check or save. You might do this if an ally is trying to help you out or even just because you think failing would create a more interesting story."
+								"你永遠也可以選擇讓技能或豁免判定失敗。你可能會因為隊友正在幫你，或是單純覺得失敗會讓故事更有趣而這樣做。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Bonuses",
+							"translate_name": "加成", "name": "Bonuses",
 							"entries": [
-								"There are three kinds of bonuses that can be applied to rolls in Lancer:",
+								"《Lancer》裡有三種不同的加成適用於擲骰結果上：",
 								{
 									"type": "list",
 									"items": [
-										"{@b ACCURACY} (Represented as &#8853;)",
-										"{@b DIFFICULTY} (Represented as &#8854;)",
-										"Statistic bonuses"
+										"{@b 準度}（由&#8853;代表）",
+										"{@b 難度}（由&#8854;代表）",
+										"數值加成"
 									]
 								},
-								"{@b ACCURACY} and {@b DIFFICULTY} represent momentary advantages or disadvantages (see below). {@b Statistic bonuses} come from three sources: your pilot’s talent and experience ({@b triggers}), their skill with mechs ({@b mech skills}), and their {@b GRIT}. Each roll can only benefit from one statistic bonus at a time. In many cases, none of these bonuses will apply and you will just roll {@b 1d20}."
+								"{@b 準度}和{@b 難度}代表一時的強弱（見下欄）。{@b 數值加成}有三個來源：你的駕駛員的天賦和經驗（{@b 觸發}）、他們操作機甲的能力（{@b 機甲能力}），以及他們的{@b 毅力}。每一次的擲骰只能受惠於一個數值加成。在很多時候，沒有任何的加成適用，而你單純只是擲{@b 1d20}。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "ACCURACY and DIFFICULTY",
+							"translate_name": "準度和難度", "name": "ACCURACY and DIFFICULTY",
 							"entries": [
-								"{@b ACCURACY} and {@b DIFFICULTY} are temporary modifiers gained and lost in rapid, chaotic moments of action.",
-								"For example, two mech pilots, equally matched, duel amidst the shifting debris of a shattered frigate. Attempting to land a shot, they dodge to avoid incoming fire and floating, slagged bulkheads. The debris makes it unlikely that either will land a clean hit; however, one of the pilots, thinking quickly, hides among the floating metal. When their enemy gets close, the pilot springs forth from hiding and catches their opponent unaware – making the shot much easier than normal.",
-								"Situations like this can cause pilots to gain {@b ACCURACY} or {@b DIFFICULTY}.",
+								"{@b 準度（Accuracy）}和{@b 難度（Difficulty）}是在亂局中時而得到，時而失去的臨時修正值。",
+								"舉例來說，兩個能力相近的機甲駕駛員在護衛艦變幻無常的殘骸中激戰。為了擊中對方，他們不斷迴避敵火和漂流的碎片。這些殘骸使得他們也難以擊中對方。不過，其中一個駕駛員在電光火石之間躲在廢鐵之後。當他的敵人接近時，駕駛員就乘虛而入，使得這次攻擊比平常更為容易。",
+								"這樣的狀況能夠讓駕駛員得到{@b 準度}或是{@b 難度}。",
 								{
 									"type": "list",
 									"items": [
-										"Each point of {@b ACCURACY} adds {@b 1d6} to a roll.",
-										"Each point of {@b DIFFICULTY} subtracts {@b 1d6} from a roll.",
-										"{@b ACCURACY} and {@b DIFFICULTY} cancel each other out on a 1:1 basis."
+										"每一點{@b 準度也使骰數增加{@b 1d6}。",
+										"每一點{@b 難度也使骰數減少{@b 1d6}。",
+										"{@b 準度和{@b 難度會以{@b 1:1}的比例互相抵銷。"
 									]
 								},
-								"If you are lucky enough to be rolling several of the same bonus dice, whether ACCURACY or DIFFICULTY, you don’t add them together to determine the result. Instead, find the highest number rolled and apply it to the final roll. Because of this, no roll can ever receive more than –6 or +6 from ACCURACY or DIFFICULTY.",
-								"For example:",
+								"如果你幸運地能擲數顆{@b 準度}或是{@b 難度}骰時，你並不是將它們的結果相加，而是將它們之中最大的數字加在結果之上。因此，{@b 準度}和{@b 難度}對骰子結果的影響永遠不會超過{@b -6}或是{@b +6}。",
+								"比方說：",
 								{
 									"type": "list",
 									"items": [
-										"For an attack with 2 ACCURACY, roll 2d6 and choose the highest of the two dice, then add that number to your attack roll. If you roll 3 on one die and 4 on the other, you add +4 to the roll, not +7.",
-										"For an attack with 2 ACCURACY and 1 DIFFICULTY, you only add 1d6 to your attack roll as 1 DIFFICULTY and 1 ACCURACY cancel each other out.",
-										"For an attack with 1 ACCURACY and 1 DIFFICULTY, you don’t add anything to the roll – the dice cancel each other out."
+										"擁有{@b 2準度}的攻擊判定會擲{@b 2d6}，並且將其中較大的數字加進你的攻擊判定之中。如果你擲骰的結果是{@b 3}和{@b 4}的話，你的判定將得到{@b +4}而不是{@b +7}。",
+										"擁有{@b 2準度}和{@b 1難度}的攻擊，你只會擲{@b 1d6}並將結果加在攻擊判定中，因為{@b 1難度}和{@b 1準度}互相抵銷了。",
+										"擁有{@b 1準度}和{@b 1難度}的攻擊，因兩者互相抵銷而不會加上任何的骰數。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "GRIT",
+							"translate_name": "毅力", "name": "GRIT",
 							"entries": [
-								"Pilots are lucky and unique individuals, multi-talented and resilient. Even so, brand-new pilots don’t measure up to tempered, battle-hardened veterans when push comes to shove. The benefits of experience are measured by {@b GRIT}, a bonus that reflects your pilot’s deep reservoirs of resolve and will to live.",
+								"駕駛員是獨一無二地幸運的人，身懷絕技且百折不撓。儘管如此，在危急關頭時，新晉駕駛員無法和千錘百煉的老連橫駕駛員比擬。經驗所帶來的優勢以{@b 毅力（Grit）}代表，這加成反映了你的駕駛員強烈的決心和求生意志。",
 								"{@b GRIT} is half of your character’s license level, rounded up. It improves attack bonuses, hit points, and save targets for both your pilot and your mech."
 							]
 						}
@@ -185,24 +185,15 @@
 				},
 				{
 					"type": "entries",
-					"translate_name": "任務、休息時間、和場景", "name": "Missions, Downtime, and Scenes",
+					"translate_name": "任務、休息時間和場景", "name": "Missions, Downtime, and Scenes",
 					"entries": [
-						"Ongoing games of Lancer are usually divided into {@b missions}, each of which might encompass one play session or several, separated by periods of {@b downtime}.",
-						"Missions have specific goals or objectives that can be completed within a discrete amount of time: destroying a building, breaking into a secure facility to recover vital data, evacuating civilians, uncovering a conspiracy, or holding the line against enemy attack, for example. Missions also provide some preparation time in which you can establish goals, stakes, and equipment for your characters.",
-						"If your character isn’t on a mission, you’re in {@b downtime}. This is the narrative space between missions, in which moment-to-moment action doesn’t matter as much and roleplaying matters much more. During downtime you can progress plots, projects, or personal stories, moving the clock forward as much or as little as you want. Days, months, and even years can pass in downtime, depending on the pace of your game.",
-						"In both missions and downtime, play is divided into {@b scenes}. A scene is a period of continuous dialogue, action, or activity that has a discrete starting and stopping point. This is called a scene because it’s helpful to think about it in cinematic terms: as long as the focus (or ‘camera’) is on the players and their action, a scene is happening. When the focus cuts away from the current scene, or the current action naturally ends, that’s when the scene should end too.",
-						"A single combat encounter or a dialogue between characters are both great examples of scenes, but a scene can also be something like a montage.",
-						"It’s important to pay attention to the beginning and end of scenes, as many special character and mech abilities end or reset at the end of a scene."
+						"《Lancer》的團通常也分成數個任務，每一個任務包含一個或多個的{@b 章節}，並且由{@b 休息時間}分開。",
+						"任務有特定的目標，能夠在特定的時間內達成：破壞一座建築、闖入守衛森嚴的設施取得重要資料、疏散平民、發現陰謀，或是抵抗敵人的攻擊等。任務亦會提供一定的準備時鑑，讓你能夠決定目標、賭注，以及角色的裝備。",
+						"如果你的角色不是在執行任務的話，那麼他就是在{@b 休息時間}。這是在任務之間的故事描述空間，其中特定的行動相比起角色扮演來說並不是太重要。在休息時間，你可以推動劇情、計劃，或是個人的故事，隨你的需要來讓時間流動。視乎你的遊戲節奏，休息時間可以長達數日、數月，甚至是數年。",
+						"在任務和休息時，劇情也分為數個{@b 場景}。每一個場景也是擁有特定的起點和終點，並且包括連續的對話或是行動。將這稱為場景，是因為以電影的術語來形容會比較方便：只要重心（如同鏡頭）聚焦在玩家和他們的行動上，那麼這就是一個場景了。當焦點從現在的場景中移走，或是現在的行動完結，那麼這也是場景該完結的時候。",
+						"一場戰鬥或是角色間的對話也是場景的好例子，不過像蒙太奇那樣的事也可以是一個場景。",
+						"另一個要注意的是場景的起點和終點，因為很多特殊的角色和機甲能力也在場景結束時失效或是重置。"
 					]
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "doc/001.png"
-					},
-					"width": "50%",
-					"height": "50%"
 				}
 			]
 		}
