@@ -178,7 +178,7 @@
 							"translate_name": "毅力", "name": "GRIT",
 							"entries": [
 								"駕駛員是獨一無二地幸運的人，身懷絕技且百折不撓。儘管如此，在危急關頭時，新晉駕駛員無法和千錘百煉的老連橫駕駛員比擬。經驗所帶來的優勢以{@b 毅力（Grit）}代表，這加成反映了你的駕駛員強烈的決心和求生意志。",
-								"{@b GRIT} is half of your character’s license level, rounded up. It improves attack bonuses, hit points, and save targets for both your pilot and your mech."
+								"{@b 毅力}等同你的角色的牌照等級減半，進位至最近整數。它會改善攻擊加成、生命值，以及駕駛員和其機甲的豁免判定目標數字。"
 							]
 						}
 					]
