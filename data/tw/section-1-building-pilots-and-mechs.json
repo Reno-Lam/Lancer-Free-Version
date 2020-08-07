@@ -83,7 +83,9 @@
 								"能使用所有{@b 通用重型系統（GMS）}裝備和武器，以及一個機甲{@b 骨架}——{@b GMS-SP1埃佛勒斯（Everest）}——的牌照。"
 							]
 						},
-						{
+					]
+				},
+				{
 					"type": "section",
 					"translate_name": "升級", "name": "Leveling Up",
 					"entries": [
@@ -105,5 +107,4 @@
 			]
 		}
 	]
-}
 }
