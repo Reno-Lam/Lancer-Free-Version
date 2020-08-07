@@ -1,0 +1,103 @@
+{
+	"reference": {
+		"name": "Section 1: Building Pilots and Mechs",
+		"id": "building_pilots_and_mechs",
+		"contents": [
+			{
+				"name": "Introduction",
+				"headers": [
+					{ "name": "Section 1" },
+					{ "name": "Section 2" }
+				]
+			},
+			{
+				"name": "Cool stuff",
+				"headers": [
+					{ "name": "table" },
+					{ "name": "image" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"name": "Introduction",
+			"entries": [
+				"This is am example of doc format, we are using json file to store everything.",
+				{
+					"type": "section",
+					"name": "Section 1",
+					"entries": [
+						"the quick-link function require the same section/paragraph name, and here is the example of the list:",
+						{
+							"type": "list",
+							"items":[
+								"bla bla bla",
+								"the link: {@link https://hazmole.github.io/d20.hero.srd/index.html}.",
+								"{@b bold text}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "second level section",
+							"entries": [
+								"Well, actually the section can have multiple level, though it look quite the same.",
+								{
+									"type": "entries",
+									"name": "3 level section",
+									"entries": [
+										"Ya"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Some title here",
+									"entries": [
+										"Yeah, look the same"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Section 2",
+					"entries": [
+						"I don't know what to say."
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Cool stuff",
+			"entries": [
+				"Here we present some cool syntax:",
+				{
+					"type": "section",
+					"name": "table",
+					"entries": [
+						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
+						{
+							"type": "entries",
+							"name": "Assigning Difficulties",
+							"entries": [
+								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "image",
+					"entries": [
+						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!"
+					]
+				}
+			]
+		}
+	]
+}
