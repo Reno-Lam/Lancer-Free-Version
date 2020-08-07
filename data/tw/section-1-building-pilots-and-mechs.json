@@ -185,68 +185,68 @@
 					"type": "section",
 					"translate_name": "觸發範例", "name": "Example Triggers",
 					"entries": [
-						"",
+						"在創造和升級你的角色時，你可以從這列表中選擇觸發，或是參考它們來創造自己的。在{@b LL0}時，你的駕駛員會得到四個{@b +2}的觸發。",
 						{
 							"type": "entries",
 							"translate_name": "隱藏身影", "name": "Act Unseen or Unheard",
 							"entries": [
-								"{@i 在沒人發現的情況下到達某地或是做事，但不一定做得快：躲藏、潛行或是靜靜地走；避過巡邏和監視器潛入設施、在沒人看或聽到的情況下巧手取物、偷竊、奪槍和作弊，或是偽裝自己。}"
+								"在沒人發現的情況下到達某地或是做事，但不一定做得快：躲藏、潛行或是靜靜地走；避過巡邏和監視器潛入設施、在沒人看或聽到的情況下巧手取物、偷竊、奪槍和作弊，或是偽裝自己。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "打臉", "name": "Apply Fists to Faces",
 							"entries": [
-								""
+								"一拳打在別人的臉上，或是光明正大的血腥格鬥戰——無論是拳毆、武術決鬥還是群毆。永遠也不會是微妙、乾淨或是安靜的。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "突擊", "name": "Assault",
 							"entries": [
-								""
+								"參與直接的戰鬥：突破充滿敵對傭兵的建築物、在戰壕之間交火、在混沌的微重力空間作接舷戰，或是在軌道轟炸後的城市廢墟中迎敵。吵雜、直接的行動。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "爆破東西", "name": "Blow Something Up",
 							"entries": [
-								""
+								"使用炸藥（無論是否土製）、武器或單純的蠻力來完全破壞或是炸毀東西。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "魅惑", "name": "Charm",
 							"entries": [
-								""
+								"說服願意傾聽的觀眾或是利用利益（金錢、權力、個人得益）來達到你的目的：說服護衛讓你通過、讓別人支持你、影響潛在的贊助人、貶低別人、調解雙方，或是對別人說謊。你亦可用它來模仿別人。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "取得東西", "name": "Get a Hold of Something",
 							"entries": [
-								""
+								"透過財富或是社交得到短期或是長期的盟友、資產或是關係。得到情報、食物、材料或是軍人。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "快速到達某地", "name": "Get Somewhere Quickly",
 							"entries": [
-								""
+								"快速而沒有意外地，但不一定是安靜地到達某地：攀爬、開車、駕駛、游泳或是以雜技來穿過更危險的捷徑。從高處安全地墜落；在無重力中優雅地移動；追逐、逃跑或是追過目標；比其他人也快到達某地。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "入侵或修理", "name": "Hack or Fix",
 							"entries": [
-								""
+								"修理裝置或是出錯系統，或是對其入侵、完全毀滅、解除或是破壞。你可能會用入侵或修理來進入或是保護安全電子裝置，包括電子門鎖、電腦系統和萬物網伺服器等。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "發明或創造", "name": "Invent or Create",
 							"entries": [
-								""
+								"臨時或是慢慢地使用工具和補給來設計或製造東西；發明新裝置、工具或是解決問題的辦法。"
 							]
 						},
 						{
