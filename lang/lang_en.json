@@ -55,7 +55,11 @@
 		}
 	]
 },
-"nav_rules": "Rules",
+"section_0": "Getting Started",
+"section_1": "Building Pilots and Mechs",
+"section_2": "Mission, Uptime and Downtime",
+"section_3": "Mech Combat",
+"section_4": "Compendium",
 
 "...": "..."
 

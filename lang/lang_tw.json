@@ -3,7 +3,7 @@
 "title_license": "授權",
 "nav_settings": "設置",
 "day_mode": "白晝模式",
-"night_mode": "夜晚模式",
+"night_mode": "黑夜模式",
 "set_language": "更改語言",
 
 "util_popout": "彈出視窗",
@@ -35,36 +35,17 @@
 "site_title": "《Lancer》規則書（免費版）",
 "site_desc": "中文翻譯分享站",
 "intro_block": {
-	"type": "section",
-	"entries": [
-		"Here you can write some introduction for the website & game it self.",
-		{
-					"type": "image",
-					"href": {
+	"type": "image",
+	"href": {
 						"type": "internal",
 						"path": "img/Cover.jpg"
-					},
-					"width": "50%",
-					"height": "50%"
-				},
-		{
-			"type": "section",
-			"name": "Introduction",
-			"entries": [
-				"And the paragraph here. The structure is the same as document.json.",
-				{
-					"type": "list",
-					"items":[
-						"And yes, the bullet point.",
-						"2",
-						"3"
-					]
-				}
-			]
-		}
-	]
+					}
 },
-"nav_rules": "基本規則",
+"section_0": "開始遊玩",
+"section_1": "創造駕駛員和機甲",
+"section_2": "任務和戰場內外",
+"section_3": "機甲戰鬥",
+"section_4": "彙編",
 
 "...": "..."
 

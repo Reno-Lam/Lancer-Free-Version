@@ -17,19 +17,38 @@ class NavBar {
 		const navBar = document.getElementById("navbar");
 
 		addLi(navBar, "index.html", FMT("nav_home"));
+		
+		// Getting Started
+		addLi(navBar, "document.html", FMT("section_0"));
+		
+		// Building Pilots and Mechs
+		addLi(navBar, "document.html", FMT("section_1"));
+		
+		// Mission, Uptime and Downtime
+		addLi(navBar, "document.html", FMT("section_2"));
+		
+		// Mech Combat
+		addLi(navBar, "document.html", FMT("section_3"));
+		
+		// Compendium
 
 		/*
 		// single link & parameter
 		addLi(navBar, "(url)", FMT("nav_basic_rules"), true, "basic");
 		*/
 		// dropdown
-		const ulRules = addDropdown(navBar, FMT("nav_rules"));
+		const ulComp = addDropdown(navBar, FMT("section_4"));
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
-		addLi(ulRules, "document.html", "Getting Started", true, "getting_started");
-		addLi(ulRules, "document.html", "Building Pilot and Mechs", true, "getting_started");
-		addLi(ulRules, "document.html", "Mission, Uptime and Downtime", true, "getting_started");
-		addLi(ulRules, "document.html", "Mech Combat", true, "getting_started");
+		addLi(ulComp, "document.html", "Talents", true, "talents");
+		addLi(ulComp, "document.html", "Gear and Systems", true, "getting_started");
+		addLi(ulComp, "document.html", "Pilot Gear", true, "getting_started");
+		addLi(ulComp, "document.html", "Introduction to Licensing", true, "getting_started");
+		addLi(ulComp, "document.html", "General Massive Systems", true, "getting_started");
+		addLi(ulComp, "document.html", "IPS-Northstar", true, "getting_started");
+		addLi(ulComp, "document.html", "Smith-Shimano Corpro", true, "getting_started");
+		addLi(ulComp, "document.html", "HORUS", true, "getting_started");
+		addLi(ulComp, "document.html", "Harrison Armory", true, "getting_started");
 
 		// License
 		addLi(navBar, "license.html", FMT("title_license"));
