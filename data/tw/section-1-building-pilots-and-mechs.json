@@ -103,6 +103,230 @@
 						"每3級{@b LL}（{@b 3}、{@b 6}、{@b 9}和{@b 12}）也會讓駕駛員得到一項新的{@b 核心加成}——能用於他們所有機甲的強力改造。"
 						
 					]
+				},
+				{
+					"type": "section",
+					"translate_name": "重分配點數", "name": "Reallocating Points",
+					"entries": [
+						"每次你的駕駛員提升{@b LL}時，你也可以選擇以下其中一項：",
+						{
+							"type": "list",
+							"items":[
+								"將其中一個天賦的所有等級重新分配到其他天賦中。",
+								"將其中一個牌照的所有等級重新分配到其他牌照中。",
+								"將其中一個核心加成換成另一個駕駛員能選擇的核心加成。"
+							]
+						},
+						"如果將等級從一個牌照重分配到另一個牌照後，代表你不再有資格得到擁有的核心加成的話，你必須將該核心加成換成你現在有資格得到的。"
+						
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "駕駛員", "name": "The Pilot",
+			"entries": [
+				"你的駕駛員是在機甲裡的人，你扮演的角色。槍騎兵（Lancer）通常也是有趣的人物——不然的話你應該不會扮演他們！在你創造你的角色時，你將能決定他們是誰，以及甚麼東西讓他那麼有趣。",
+				"創造你的駕駛員是相對簡單的過程。一開始你只須要選擇一個背景和四個觸發。在那之後，你可以決定你的駕駛員的其他加成，數值和裝備，然後才執行任務。",
+				{
+					"type": "section",
+					"translate_name": "背景", "name": "Backgrounds",
+					"entries": [
+						"你的駕駛員的背景描述他們在成為駕駛員之前的生活。這未必主宰了駕駛員現在的定位——實際上，你的駕駛員甚至可以放棄他的舊生活，就算現在仍受其影響也不願再扯上任何關係。不過，這會讓你的GM和其他玩家捉摸坐進機甲裡的人是誰。",
+						"你可以把背景當作是想像你的駕駛員的完整背景故事時的引子。他最初是如何成為士兵、醫生或是礦工的？然後，他是怎樣從那變成槍騎兵呢？",
+						"在創造角色時，你可以從以下的列表中選擇一個背景、透過擲{@b 1d20}來隨機挑選一個，或是直接自己想一個出來。",
+						{
+							"type": "entries",
+							"translate_name": "使用背景", "name": "Invoking Backgrounds",
+							"entries": [
+								"在戰鬥以外時，你（或是GM）可以{@b 使用}你的駕駛員的背景，以使和它相關的任何技能判定中也得到{@b 1準度}或是{@b 1難度}。比方說，背景為殖民者的人在和其他的殖民者談判、探索野外、或是種田時，可能會得到{@b +1&#8853;}。不過，在太空出生的角色，在作這些事時可能就會得到{@b +1&#8854;}。",
+								"在有爭議時，{@b 除了你和GM以外}的玩家將作為仲裁者。如果其他玩家無法達成共識的話，則由提出使用該背景的人作最後決定。"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"translate_name": "觸發", "name": "Triggers",
+					"entries": [
+						"作為故事的要角，你的駕駛員會碰到能讓他們的背景、訓練和性格管用的時候。這些時候叫作{@b 觸發（trigger）}：用來形容重要決定和行動的短句，像是{@b 打臉}或是{@b 快速到達某地}。觸發必然和{@b +2}、{@b +4}或是{@b +6}的加成相配。",
+						"當你的角色的觸發和技能判定有關時，你在該判定將有加成。比方說，如果你的角色紙寫有「{@b +2打臉}」的話，每當你的角色的行動能夠理解成為打臉的話，你也會在該技能判定上得到{@b +2}的加成。你同一時間只能受惠於一個觸發。",
+						"觸發適用於你的駕駛員的個人能力、經驗、訓練或是背景，而不是他們的機甲的能力。當進行倚靠機甲的行動時，須使用{@b 機甲能力}。",
+						"觸發幾乎一定用在{@b 故事描述}之中，而永不會適用於攻擊判定、豁免，或是技能判定以外的任何判定。",
+						"觸發通常也是相當自由的，容易你發揮你的創意來善用它們。不過，GM也有仲裁太異想天開的宣言。如果你想要你用{@b 打臉}觸發來幫助你駭進電子網絡的話，那麼你該準備好該怎樣解釋。",
+						{
+							"type": "entries",
+							"translate_name": "紀錄觸發", "name": "Tracking Triggers",
+							"entries": [
+								"你只須要寫下你的駕駛員現有的觸發。在{@b LL0}時選擇四個{@b +2}的觸發，然後你可能會得到以下的清單：",
+								{
+									"type": "list",
+									"items":[
+										"{@b +2威脅}",
+										"{@b +2快速到達某地}",
+										"{@b +2領導或啟發}",
+										"{@b +2入微觀察}"
+									]
+								},
+								"或者你可以把它們寫成「{@b +2威脅、快速到達某地、領導或啟發和入微觀察}」。這樣就好了！"
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "創造觸發", "name": "Creating Triggers",
+							"entries": [
+								"GM容許的話，你可以創造自己的觸發。自訂觸發可以比本書提供的例子更為具體——像是{@b 冷血殺人}或是{@b 羞辱}。不過，它們不該比例子更為籠統，而該適用於特定的情況或是行動中。"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"translate_name": "觸發範例", "name": "Example Triggers",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"translate_name": "隱藏身影", "name": "Act Unseen or Unheard",
+							"entries": [
+								"{@i 在沒人發現的情況下到達某地或是做事，但不一定做得快：躲藏、潛行或是靜靜地走；避過巡邏和監視器潛入設施、在沒人看或聽到的情況下巧手取物、偷竊、奪槍和作弊，或是偽裝自己。}"
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "", "name": "",
+							"entries": [
+								""
+							]
+						}
+					]
 				}
 			]
 		}
