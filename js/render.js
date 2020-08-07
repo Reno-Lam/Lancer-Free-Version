@@ -296,7 +296,7 @@ function Renderer () {
 		const svg = this._lazyImages && entry.width != null && entry.height != null
 			? `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="${entry.width}" height="${entry.height}"><rect width="100%" height="100%" fill="#ccc3"/></svg>`)}`
 			: null;
-		textStack[0] += `<div class="rd__wrp-image"><a href="${href}" target="_blank" rel="noopener" ${entry.title ? `title="${entry.title}"` : ""}><img class="rd__image" src="${svg || href}" ${entry.altText ? `alt="${entry.altText}"` : ""} ${svg ? `data-src="${href}"` : ""}></a></div>`;
+		textStack[0] += `<div class="rd__wrp-image"><a href="${href}" target="_blank" rel="noopener" ${entry.title ? `title="${entry.title}"` : ""}><img class="rd__image" src="${svg || href}" ${entry.altText ? `alt="${entry.altText}"` : ""} ${svg ? `data-src="${href}"` : ""} width="${entry.width}" height="${entry.height}"></a></div>`;
 		if (entry.title) textStack[0] += `<div class="rd__image-title"><div class="rd__image-title-inner">${entry.title}</div></div>`;
 		textStack[0] += `</div>`;
 		this._renderSuffix(entry, textStack, meta, options);
@@ -440,7 +440,7 @@ function Renderer () {
 
 	this._renderEntriesSubtypes = function (entry, textStack, meta, options, incDepth) {
 		const isInlineTitle = meta.depth >= 2;
-		const isBookPage = (window.location.pathname.split("/").pop().match(/^rules\.html/)!=null);
+		const isBookPage = meta.depth>=0;
 		const nextDepth = incDepth && meta.depth < 2 ? meta.depth + 1 : meta.depth;
 		const styleString = this._renderEntriesSubtypes_getStyleString(entry, meta, isInlineTitle);
 		const dataString = this._renderEntriesSubtypes_getDataString(entry);
@@ -450,7 +450,7 @@ function Renderer () {
 
 		const book_idx = `book-idx="${entry.idx_name ? entry.idx_name : entry.name}"`.toLowerCase();
 		const display_name = entry.translate_name? entry.translate_name: entry.name;
-		const quickLink = (isInlineTitle||!isBookPage)? "": `<span class='entryLink' title=${FMT("msg_copylink")}>🔗</span>`;
+		const quickLink = (isInlineTitle||!isBookPage)? "": `<span class='entryLink' title='${FMT("msg_copylink")}'>🔗</span>`;
 		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" ${book_idx}><div>${this.render({type: "inline", entries: [display_name+quickLink]})}${isInlineTitle ? "." : ""}</div></span></span> ` : "";
 		//${entry.translate_name ? (" <st style='font-size:80%;'>"+entry.name+"<st>") : ""}
 		if (meta.depth === -1) {

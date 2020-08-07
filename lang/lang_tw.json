@@ -32,7 +32,7 @@
 "msg_copylink": "複製段落連結",
 
 
-"site_title": "The website title",
+"site_title": "Lancer 免費版中文站",
 "site_desc": "and the website description.",
 "intro_block": {
 	"type": "section",
@@ -55,6 +55,8 @@
 		}
 	]
 },
+"nav_rules": "基本規則",
+
 "...": "..."
 
 }

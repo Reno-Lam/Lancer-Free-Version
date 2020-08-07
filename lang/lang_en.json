@@ -32,7 +32,7 @@
 "msg_copylink": "Copy link to clipboard",
 
 
-"site_title": "The website title",
+"site_title": "Lancer - Free version",
 "site_desc": "and the website description.",
 "intro_block": {
 	"type": "section",
@@ -55,6 +55,8 @@
 		}
 	]
 },
+"nav_rules": "Rules",
+
 "...": "..."
 
 }

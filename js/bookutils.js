@@ -418,7 +418,7 @@ const BookUtil = {
 			const $this = $(this);
 			const book = BookUtil.curRender.curBookId;
 			const chapter = BookUtil.curRender.chapter;
-			const section = $this.parent().attr('book-idx');
+			const section = $this.parent().parent().attr('book-idx');
 			const hashParts = [book, chapter, section].map(it => UrlUtil.encodeForHash(it));
 
 			const url = `${window.location.href.split("#")[0]}#`+hashParts.join(",");

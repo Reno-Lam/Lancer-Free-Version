@@ -1019,6 +1019,7 @@ body {
 .page__title {
   margin-right: 10px;
   display: inline;
+  line-height: 1.5;
 }
 .page__title::after {
   content: ".";
@@ -2250,7 +2251,7 @@ th.name div.name-inner {
 
 .stats td,
 .stats th {
-  padding: 1px 0.3em;
+  padding: 3px 1em;
 }
 
 .stats th {
@@ -3675,7 +3676,6 @@ tr.regionaleffect .rd__b--3 {
 }
 .rd__image {
   max-width: 100%;
-  max-height: 60vh;
   cursor: zoom-in;
 }
 .rd__wrp-map {

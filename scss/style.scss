@@ -21,6 +21,7 @@ body {
 	&title {
 		margin-right: 10px;
 		display: inline;
+		line-height: 1.5;
 
 		&::after {
 			content: '.';
@@ -1399,7 +1400,7 @@ th.name {
 
 .stats td,
 .stats th {
-	padding: 1px 0.3em;
+	padding: 3px 1em;
 }
 
 .stats th {
@@ -2954,7 +2955,7 @@ tr.regionaleffect {
 
 	&image {
 		max-width: 100%;
-		max-height: 60vh;
+		//max-height: 60vh;
 		cursor: zoom-in;
 	}
 

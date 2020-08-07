@@ -1252,8 +1252,6 @@ UrlUtil = {
 			else return `${curr}?ver=${VERSION_NUMBER}`;
 		}
 
-		if (!IS_ROLL20 && IS_DEPLOYED) return addGetParam(`${DEPLOYED_STATIC_ROOT}${href}`);
-		else if (IS_DEPLOYED) return addGetParam(href);
 		return href;
 	},
 

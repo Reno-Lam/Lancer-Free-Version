@@ -23,10 +23,13 @@ class NavBar {
 		addLi(navBar, "(url)", FMT("nav_basic_rules"), true, "basic");
 		*/
 		// dropdown
-		const ulExample = addDropdown(navBar, FMT("example"));
-		addLi(ulExample, "data-page.html", "Data-page Example");
-		addDivider(ulExample);
-		addLi(ulExample, "document.html", "Doc-page Example", true, "example");
+		const ulRules = addDropdown(navBar, FMT("nav_rules"));
+		//addLi(ulExample, "data-page.html", "Data-page Example");
+		//addDivider(ulExample);
+		addLi(ulRules, "document.html", "Getting Started", true, "getting_started");
+		addLi(ulRules, "document.html", "Building Pilot and Mechs", true, "getting_started");
+		addLi(ulRules, "document.html", "Mission, Uptime and Downtime", true, "getting_started");
+		addLi(ulRules, "document.html", "Mech Combat", true, "getting_started");
 
 		// License
 		addLi(navBar, "license.html", FMT("title_license"));
