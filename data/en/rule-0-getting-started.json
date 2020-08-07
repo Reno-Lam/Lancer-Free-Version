@@ -194,15 +194,6 @@
 						"A single combat encounter or a dialogue between characters are both great examples of scenes, but a scene can also be something like a montage.",
 						"It’s important to pay attention to the beginning and end of scenes, as many special character and mech abilities end or reset at the end of a scene."
 					]
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "doc/001.png"
-					},
-					"width": "50%",
-					"height": "50%"
 				}
 			]
 		}
