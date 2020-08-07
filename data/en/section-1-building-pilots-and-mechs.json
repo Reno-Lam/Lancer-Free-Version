@@ -1,58 +1,20 @@
 {
 	"reference": {
-		"translate_name": "第一章：創造駕駛員和機甲", "name": "Section 1: Building Pilots and Mechs",
+		"name": "Document Example",
 		"id": "building_pilots_and_mechs",
 		"contents": [
 			{
-				"translate_name": "牌照等級", "name": "License Level",
+				"name": "Introduction",
 				"headers": [
-					{ "translate_name": "LL0", "name": "LL0" },
-					{ "translate_name": "升級", "name": "Leveling Up" },
-					{ "translate_name": "重分配點數", "name": "Reallocating Points" },
-					{ "translate_name": "等級表", "name": "Level Chart" }
+					{ "name": "Section 1" },
+					{ "name": "Section 2" }
 				]
 			},
 			{
-				"translate_name": "駕駛員", "name": "The Pilot",
+				"name": "Cool stuff",
 				"headers": [
-					{ "translate_name": "背景", "name": "Backgrounds" },
-					{ "translate_name": "觸發", "name": "Triggers" },
-					{ "translate_name": "觸發範例", "name": "Example Triggers" },
-					{ "translate_name": "戰場上的駕駛員", "name": "Pilots in Combat" },
-					{ "translate_name": "創造駕駛員", "name": "Creating a Pilot" }
-				]
-			},
-			{
-				"translate_name": "機甲", "name": "The Mech",
-				"headers": [
-					{ "translate_name": "機甲能力", "name": "Mech Skills" },
-					{ "translate_name": "模組化機甲", "name": "Modular Mechs" },
-					{ "translate_name": "通用重型系統", "name": "General Massive Systems" },
-					{ "translate_name": "無限制", "name": "Without Limits" }
-				]
-			},
-			{
-				"translate_name": "機甲結構", "name": "Mech Structure",
-				"headers": [
-					{ "translate_name": "骨架", "name": "Frames" },
-					{ "translate_name": "大小", "name": "Size" },
-					{ "translate_name": "裝甲", "name": "Armor" },
-					{ "translate_name": "掛載點", "name": "Mounts" },
-					{ "translate_name": "武器", "name": "Weapons" },
-					{ "translate_name": "系統點數", "name": "System Points" },
-					{ "translate_name": "核心系統", "name": "Core Systems" },
-					{ "translate_name": "基本數值", "name": "Base Statistics" },
-					{ "translate_name": "核心加成", "name": "Core Bonuses" },
-					{ "translate_name": "天賦", "name": "Talents" },
-					{ "translate_name": "創造機甲", "name": "Creating a Mech" }
-				]
-			},
-			{
-				"translate_name": "創造範例", "name": "Creation Example",
-				"headers": [
-					{ "translate_name": "範例角色：織田太郎", "name": "Example Character: Taro Oda" },
-					{ "translate_name": "建造機甲：雷神", "name": "Building the Mech: Raijin" },
-					{ "translate_name": "升級：在LL3的織田和雷神", "name": "Leveling Up: Oda and Raijin at LL3" }
+					{ "name": "table" },
+					{ "name": "image" }
 				]
 			}
 		]
@@ -61,47 +23,78 @@
 	"data": [
 		{
 			"type": "section",
-			"translate_name": "牌照等級", "name": "License Level",
+			"translate_name": "介紹", "name": "Introduction",
 			"entries": [
-				"和其他的角色扮演遊戲不同，你毋須在《Lancer》裡考慮金錢的問題。你能夠使用的機甲、裝備、升級、天賦，以及其他角色選項是受到{@b 牌照（license）}的限制。牌照代表了你為了得到機甲裝備和部件而能使用的貴重資訊、資源，以及授權。在《Lancer》的世界裡，主要的勢力嚴密地控管自己的牌照，並且讓擁有牌照的人能隨意使用相應的裝備。",
-				"在《Lancer》裡，你的駕駛員透過完成任務和得到{@b 牌照等級（LL）}來提升自己。你的{@b LL}適用於你的駕駛員和機甲——當你升級時，你的角色也會變強並能得到更高級的裝備和戰技。提升LL讓你能夠解鎖新的生產商的牌照，從而得到限定的裝備和機甲。升級亦會讓你的駕駛員增強{@b 觸發}、{@b 機甲能力}和{@b 毅力}，並讓你能選擇{@b 天賦}以微調角色設計。",
-				"新晉駕駛員通常也由{@b LL0}開始，並且在完成第一個任務之後升級至{@b LL1}，在之後的任務中不斷升級直到{@b LL12}為止。",
-				"這章包括了大量會在本書後面詳述的資訊。如果這是你第一次讀這書的話，你可以先跳過這部份，在有需要時才回來參考。",
+				"This is am example of doc format, we are using json file to store everything.",
 				{
 					"type": "section",
-					"translate_name": "LL0", "name": "LL0",
+					"translate_name": "章節一", "name": "Section 1",
 					"entries": [
-						"新玩家通常也該由創造{@b LL0}的角色開始。即使在這等級，你的駕駛員也能夠利用大量的加成和裝備。",
-						"{@b LL0}角色在開始時會擁有以下各項：",
+						"the quick-link function require the same section/paragraph name, and here is the example of the list:",
 						{
 							"type": "list",
 							"items":[
-								"為技能判定提供加成的{@b 背景}。",
-								"四個{@b +2駕駛員觸發}。",
-								"一個{@b +2機甲能力}或是兩個{@b +1機甲能力}。",
-								"三個{@b 等級1天賦}。",
-								"能使用所有{@b 通用重型系統（GMS）}裝備和武器，以及一個機甲{@b 骨架}——{@b GMS-SP1埃佛勒斯（Everest）}——的牌照。"
+								"bla bla bla",
+								"the link: {@link https://hazmole.github.io/d20.hero.srd/index.html}.",
+								"{@b bold text}"
 							]
 						},
+						{
+							"type": "entries",
+							"name": "second level section",
+							"entries": [
+								"Well, actually the section can have multiple level, though it look quite the same.",
+								{
+									"type": "entries",
+									"name": "3 level section",
+									"entries": [
+										"Ya"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Some title here",
+									"entries": [
+										"Yeah, look the same"
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
-					"translate_name": "升級", "name": "Leveling Up",
+					"translate_name": "章節二", "name": "Section 2",
 					"entries": [
-						"當角色完成任務時，他們的{@b LL}無論成敗也會提升一級，並且得到以下各項：",
+						"I don't know what to say."
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Cool stuff",
+			"entries": [
+				"Here we present some cool syntax:",
+				{
+					"type": "section",
+					"name": "table",
+					"entries": [
+						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
 						{
-							"type": "list",
-							"items":[
-								"一個既有或是新的觸發{@b +2}。",
-								"一項機甲能力{@b +1}。",
-								"一項既有或新天賦{@b +1}等級。",
-								"{@b +1牌照等級}。"
+							"type": "entries",
+							"name": "Assigning Difficulties",
+							"entries": [
+								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task."
 							]
-						},
-						"升級自然會使角色的{@b 毅力}升至總{@b LL}除二，進位至最近整數。駕駛員在{@b LL1}時得到第一點的{@b 毅力}。",
-						"每3級{@b LL}（{@b 3}、{@b 6}、{@b 9}和{@b 12}）也會讓駕駛員得到一項新的{@b 核心加成}——能用於他們所有機甲的強力改造。",
-						
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "image",
+					"entries": [
+						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!"
 					]
 				}
 			]
