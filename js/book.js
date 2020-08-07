@@ -24,7 +24,8 @@ window.onload = function load () {
 
 const HASH_TO_DATAFILE = {};
 HASH_TO_DATAFILE["example"] = "example-doc.json";
-HASH_TO_DATAFILE["getting_started"] = "rule-0-getting-started.json"
+HASH_TO_DATAFILE["getting_started"] = "section-0-getting-started.json"
+HASH_TO_DATAFILE["building_pilots_and_mechs"] = "section-1-building-pilots-and-mechs.json"
 
 const IS_LOCAL_TEST = false;
 function getFakeData(){
