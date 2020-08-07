@@ -19,7 +19,7 @@ class NavBar {
 		addLi(navBar, "index.html", FMT("nav_home"));
 		
 		// Getting Started
-		addLi(navBar, "document.html", FMT("section_0"));
+		addLi(navBar, "document.html", FMT("section_0"), true, "getting_started");
 		
 		// Building Pilots and Mechs
 		addLi(navBar, "document.html", FMT("section_1"));
