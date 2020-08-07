@@ -1,0 +1,210 @@
+{
+	"reference": {
+		"translate_name": "第零章 - 開始遊玩", "name": "Section 0 - Getting Started",
+		"id": "getting_started",
+		"contents": [
+			{
+				"translate_name": "引言", "name": "Introduction",
+				"headers": [
+					{ "translate_name": "騎士", "name": "The Cavalry" }
+				]
+			},
+			{
+				"translate_name": "遊玩Lancer", "name": "Playing Lancer",
+				"headers": [
+					{ "translate_name": "你需要些甚麼？", "name": "What You Need" },
+					{ "translate_name": "金科玉律", "name": "The Golden Rules" },
+					{ "translate_name": "故事描述和機甲戰鬥", "name": "Narrative Play and Mech Combat" },
+					{ "translate_name": "技能判定、攻擊、和豁免", "name": "Skill Checks, Attacks, and Saves" },
+					{ "translate_name": "任務、休息時間、和場景", "name": "Missions, Downtime, and Scenes" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"translate_name": "引言", "name": "Introduction",
+			"entries": [
+				"{@b 現在是聯盟曆5016年，而銀河已經是數以京計人們的家。人類領土的核心地帶正經歷著黃金時代，但在這個新建成的理想鄉之外，那革命性的計劃仍在持續。}",
+				"You are a lancer, an exceptional mech pilot among already exceptional peers, and you live in a time where the future hangs as a spinning coin at the apex of its toss – the fall is coming, and how the coin lands is yet to be determined.",
+				"Far now from our humble beginnings, humanity has spread out among and between the stars for thousands of years. We have set empty worlds and barren moons alight with civilization, tamed asteroids and gas giants – even built lives in the hard vacuum of space itself. We have taken root in our arm of the Milky Way; life – in its infinite diversity – thrives and expands.",
+				"For some, life in this time is as a river – forever moving, with the land and time of their birth left somewhere far behind. For most, life is spent on their home world, moon, or station, linked to the rest ofhumanity via fantastic technologies, or isolated to the politics, stories, and histories of their own lands. The trillions that make up humanity live, for the most part, as you or I do now.",
+				"But wonders tie the galaxy together in this age.",
+				"Connecting all worlds is blinkspace – an unknowably vast and strange plane parallel to the one in which we live, pierced by blink gates that allow us to travel with speed and safety. Thanks to these massive, star-bound doors, every corner of space is open to the daring. These portals are common wonders: thousands of ships travel through them every day seeking trade, migration, travel, war, and myriad other aims.",
+				"Filling the lonely void is the omninet, a data-sharing network built off the blink that connects every computer, every server – everything – to everything else. The omninet is much more than a way to send messages or a means for people on far-flung worlds to read the galaxy’s news; it overlays all human communications, facilitating government, industry, culture, and realms more esoteric still. Data is the new wealth, and the omninet means that all wealth can be shared.",
+				"The form of that wealth is manna. Uniting the disparate nations of the human diaspora outside the Core, manna is the universal currency accepted by every market on every planet. When a galaxy’s wealth of raw resources are available for exploitation, a community’s wealth comes from both its past and its potential.",
+				"The vast mass of humanity is administered by a single sprawling government: Union, the galactic hegemony. Luna and Mars, Mercury and Venus. Saturn, Jupiter, Neptune, and Uranus. Phobos and Deimos. Io, Europa, Ganymede, and Callisto. Titan and Enceladus. These worlds strung in their orbit around Sol are the diadem atop which Cradle rests, the seat of Union’s power and humanity’s ancient heart. From Cradle, Union controls the three levers of the galaxy: the blink gates, the omninet, and manna. Without these levers, and without Union, the galaxy would fall into chaos.",
+				"Union is a new kind of utopia. A new state – communal and post-capital – for a New Humanity. Union was born from the ashes and ice of the Fall: the collapse that felled Old Humanity, boiling Cradle and withering her colonies entirely. Though it has been thousands of years since Union was founded – and thousands more since the Fall – New Humanity knows only one truth among ten thousand unknowns: if we are to survive, then we must come together in solidarity and mutual aid.",
+				"Despite Union’s conviction – and despite its successes so far – the sheer size of this collective project is daunting. Union is distant to most people: fictionalized in omninet dramas and novels; dreamed about by children and wanderers; hailed as the promised kingdom or damned as the pit by religions across the galaxy. For all its authority, Union prefers to rule from a distance. Few have ever seen one of Union’s administrators, let alone suffered one of its naval campaigns. For those who have never seen its flag, Union is all but a myth; for those whose skies have been darkened by Union’s ships, the hegemony may have brought liberty – but it brought death first.",
+				"The galaxy remains a dangerous place outside the Core. Rebellions, insurrections, piracy, wars – civil and interplanetary – continue to flare and burn their way through space, though only the most desperate conflicts require Union’s intervention. Disputes between Union’s subject states are common enough that there is still a need for militaries, militias, and mercenaries. Five major suppliers offer arms and armor to states and entities outside the Core that desire them. These manufacturers exist in delicate balance with Union: though the administrators regulate and the suppliers comply, these two philosophies – one of post-capital utopia and the other of permanent and wild growth – rush toward an irrecon‐ cilable end.",
+				"You are one person, alive in this time of tumult and peace – a time of promise that was built on the sacrifice of those who came before and is threatened still by the heirs of old adversaries. You are one whose life is lived in the great river, where lives cross stars and time; where one person in the right place at the right time can divert the course of history; where the collective action of comrades can save worlds, lives, and better define Union’s utopian dream.",
+				"You are a mech pilot – one of the best, a lancer – and yours is the story of this spinning coin at the apex of its toss. At this pivotal moment in history, what will you and your comrades do when fate, foresight, and luck – good or bad – puts you in the right place at the right time?",
+				"On which side will you fall?",
+				{
+					"type": "entries",
+					"translate_name": "騎士", "name": "The Cavalry",
+					"entries": [
+						"Your character in the world of Lancer is a mechanized cavalry pilot of particular note – a lancer. Whatever the mission, whatever the terrain, whatever the enemy, your character is the one who is called in to break the siege or hold the line. When the drop klaxons sound, it’s up to them to save the day.",
+						"Your lancer hails from a world and culture of your choice, but is human. They might come from Earth – or Cradle, as it is now called – but to hail from Earth in the age of Union is exceedingly rare. No, it is far more likely that your pilot hails from somewhere in the vastness of the human diaspora. In Lancer, it has been millennia since we left Earth, and most of humanity lives among the stars in our arm of the Milky Way.",
+						"This humanity is familiar and strange in equal measure. As far as we know, the only sentient, sapient beings in our stellar neighborhood are other humans, but don’t take this as a limitation – there are many roads to becoming a lancer. Your character might be the product of significant technological and capital investment on the part of their employers; or, they could be a born prodigy – a wunderkind who commands a mech with innate grace and ability, perhaps discovered by a secretive recruiter. Your character might be a lucky conscript – a battle-proven  draftee who managed to survive their first drop, promoted by desperate commanders looking for a hero. They could also be the scion of an ancient, atemporal monarchy, destined to inherit the chassis of their polypatriarch. Your character could be a jaded  volunteer from a Union liberator team, motivated by a closely-guarded ember of hope for a better future; or an anointed Loyal Wing of the Albatross; or a facsimile of a long-dead pilot, grown in batches of thousands; a spacer who has spent too long listening to the deep whispers of the void.",
+						"Whatever led your character to the cockpit of their mech, they are the sum of many parts: enhanced through a combination of training, natural skill, battlefield experience, and neural or physical augmentation, a lancer is the equivalent of a knight of old, a flying ace, or another class of elite warrior.",
+						"Lancers, many proudly declare, are a cut above other pilots.",
+						"They aren’t entirely wrong. The recruitment, training, and maintenance of a mech pilot demand the investment of much more time and capital than your average soldier. To operate a mech at peak efficiency, a pilot needs extensive physical and mental training, or advanced (and expensive) physiological and ontological augmentations. Washout and injury rates are high thanks to the demanding training process, but a high bar is necessary: once a candidate attains their final certifications and ships out to their first posting, they face only the most dangerous missions. Mechs aren’t sent in to keep the peace – they’re sent in when all other options have failed. Your character, a lancer, represents the best of this exceptional corps.",
+						"Remember, whatever their history, your pilot is ultimately human. They’re just as flawed as the rest of us, just as perfect. Pilots are heroes and villains; brave souls and cowards; lovers and fighters, all. Some of them stand strong when everyone else runs, or are the first to face danger – our best and brightest. But they, too, break under the pressure; they fail; they kill, even when they could have spared a life.",
+						"Pilots and lancers are from all walks of life. Every station, criminal history, and economic class is represented in their ranks."
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "遊玩Lancer", "name": "Playing Lancer",
+			"entries": [
+				"在《Lancer》裡，你的角色的首要定位是駕駛員——在戰場上所向披靡，讓人敬畏的存在。不過，你的角色同時也包括了另一個元素，也就是你的機甲（mech）。儘管你可以將兩者分開定義，可是駕駛員和機甲在本質上是密不可分的。",
+				"本書的第一章（P.16）將會教你如何 {@b 創造駕駛員和機甲} 。",
+				"第二章是 {@b 任務和戰場內外} (p. 38)，涵蓋故事描述、選擇任務和在戰場以外的時間能做的事。",
+				"第三章是 {@b 機甲戰鬥} (p. 56)，包括了在機甲內外的戰鬥規則。",
+				"第四章是 {@b 彙編} (p. 86)，在那你可以找到所有角色相關的選項。",
+				{
+					"type": "entries",
+					"translate_name": "你需要些甚麼？", "name": "What You Need",
+					"entries": [
+						"這遊戲使用兩種骰子：二十面骰（{@b d20}）和六面骰（{@b d6}）。你會透過擲這些骰子來決定進行不確定的事的結果，像是擊發武器、駭進電腦、或是攀登懸崖等。當規則要求你擲骰時，它也會指明你需要擲多少骰子。比方說，{@b 1d20}代表你須要擲一顆二十面骰，而{@b 2d6}則代表你須要擲兩顆六面骰。",
+						"有些時候，規則會要求你擲{@b 1d3}。這單純代表你應該擲{@b 1d6並將結果除二}（無條件進位）：當你需要擲{@b 1d3}時，把{@b d6}上的1和2代表1、3和4代表2，而5和6代表3。",
+						"{@i Lancer} is best played with 3-6 players, but can be played with as little as two or as many as you feel comfortable with. Each player needs at least one {@b d20, a number of d6s, and some paper or a character sheet} to write down information. If you’re playing online, or welcome computers at the table, the {@link COMP/ CON CHARACTER BUILDING TOOL|https://massif-press.itch.io/compcon} is recommended.",
+						"This game makes use of grid-based tactical combat, so it can be helpful to have paper with square or hexagonal grids, such as graph paper or pre-prepared battle maps. Miniatures aren’t necessary to play this game but they can sometimes make combat easier to visualize.",
+						"Most of the players take on the role of pilots - these are the player characters, or PCs - but one player is the Game Master, or GM. The GM acts as a narrative guide, facilitator, and the arbitrator of the game’s rules. They help create the story and narrative your group will explore and portray all of the NPCs. For more information on the GM role and a list of rules, tips, and tools for GMs to use, refer to the full edition of this book.",
+						"Finally, we recommend that all players download our free companion app, {@b Comp/Con}; it isn’t necessary to have the app to play the game, but it can make it more accessible to players who aren’t able or don’t wish to thumb through this book."
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "金科玉律", "name": "The Golden Rules",
+					"entries": [
+						"There are two golden rules to remember when playing Lancer:",
+						"{@b I: Specific rules override general statements and rules.}",
+						{
+							"type": "quote",
+							"entries": [
+								"For example, when you shoot at an enemy, your roll is normally influenced by whether they’re in cover; however, SEEKING weapons ignore cover. Because the SEEKING tag is a specific rule, it supersedes the general rules governing cover."
+							]
+						},
+						"{@b II: Always round up (to the nearest whole number).}"
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "故事描述和機甲戰鬥", "name": "Narrative Play and Mech Combat",
+					"entries": [
+						"Lancer makes a distinction between freeform {@b narrative play} and {@b mech combat}, in which tracking individual turns and actions is important.",
+						"During narrative play, players act naturally and spontaneously as needed. Time might pass more quickly, scenes might be shorter, and individual rolls might count for more or less. Most of your game’s story and interaction between characters will take place during narrative play. In mech combat, players act on their turn and are restricted in what they can do and how often, making each action much more impactful and tactical. Swapping between mech combat and narrative play is fairly natural, especially if you’ve played other games with turn-based combat.",
+						"The reason there are two types of play is that they represent different approaches to storytelling in roleplaying games. One, narrative play, is focused on the story and characters, with a rules-light approach to conflict resolution; the other, mech combat, relies more on rules and tactics, like a board game.",
+						"Depending on your GM and group of players, you could spend a whole session in one type of play or the other, or with some of both.",
+						"Neither of these is the “correct” way to play the game. Groups will find a balance between the two that works for them. Lancer provides rules for both so that both people who like to explore stories or who enjoy tactical combat will have an enjoyable experience."
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "技能判定、攻擊、和豁免", "name": "Skill Checks, Attacks, and Saves",
+					"entries": [
+						"There are three types of dice rolls in Lancer: {@b skill checks}, {@b attacks}, and {@b saves}.",
+						"In narrative play, you will only need to worry about the first of these. In mech combat you will use all three.",
+						"You make {@b skill checks} when your character is in a challenging or tense situation that requires effort to overcome. When you want to act in such a situation, state your objective (e.g., break down the door, decrypt the data, or sweet-talk the guard), then roll {@b 1d20}, and add any relevant bonuses. On a total of {@b 10+}, you succeed. A result of {@b 9 or less} means you failed to accomplish your goal and may suffer consequences as a result. Although the GM can’t change the target number ({@b 10}), they have access to several tools that are explained later (p. 45-47), such as declaring a skill challenge or deciding that your action is {@b DIFFICULT} or {@b RISKY}.",
+						"In mech combat, {@b attacks} are any offensive actions against other characters, like firing a weapon or hacking into an opponent’s mech. Attack rolls are similar to skill checks – you roll {@b 1d20} and add any bonuses – but the target number isn’t always {@b 10}, and usually depends on the defensive capabilities of your target. For an attack to be successful it needs to equal or exceed the target’s defense. Successful attacks are described as “{@b hits}” - so if the rules tell you that an effect happens “{@b on hit}”, that means it takes place when you make a successful attack. Some attacks also result in {@b critical hits}. On a roll of {@b 20+} you perform a critical hit, which allows you to deal more damage or sometimes trigger extra effects.",
+						"Although there are different types of attacks, including ranged, melee, and tech attacks, they all use the same basic rules described here.",
+						"Lastly, {@b saves} are rolls made to avoid or resist negative effects in mech combat. You might roll a save to prevent a hacker wrecking your systems, to avoid being blinded by a flash grenade, or to dive away from an explosion. To save, you roll {@b 1d20} and add any bonuses, but the target number can differ from {@b 10} as it can with attacks. The target number for a save usually depends on the abilities of the attacker. If you equal or exceed this number, you succeed; if your roll is lower, you fail. The outcome of each result will depend on what you are trying to avoid.",
+						{
+							"type": "entries",
+							"name": "Contested Checks",
+							"entries": [
+								"In some cases, the rules will tell you to make a {@b contested check}, representing a challenge between two parties. In a contested check, both participants make skill checks and add any bonuses. Whoever has the highest result wins. If the result is a tie, the attacker – the one who initiated the contest – wins.",
+								"You might make contested checks in both narrative play and mech combat."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Choosing to Fail",
+							"entries": [
+								"You may always choose to fail a skill check or save. You might do this if an ally is trying to help you out or even just because you think failing would create a more interesting story."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bonuses",
+							"entries": [
+								"There are three kinds of bonuses that can be applied to rolls in Lancer:",
+								{
+									"type": "list",
+									"items": [
+										"{@b ACCURACY} (Represented as &#8853;)",
+										"{@b DIFFICULTY} (Represented as &#8854;)",
+										"Statistic bonuses"
+									]
+								},
+								"{@b ACCURACY} and {@b DIFFICULTY} represent momentary advantages or disadvantages (see below). {@b Statistic bonuses} come from three sources: your pilot’s talent and experience ({@b triggers}), their skill with mechs ({@b mech skills}), and their {@b GRIT}. Each roll can only benefit from one statistic bonus at a time. In many cases, none of these bonuses will apply and you will just roll {@b 1d20}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "ACCURACY and DIFFICULTY",
+							"entries": [
+								"{@b ACCURACY} and {@b DIFFICULTY} are temporary modifiers gained and lost in rapid, chaotic moments of action.",
+								"For example, two mech pilots, equally matched, duel amidst the shifting debris of a shattered frigate. Attempting to land a shot, they dodge to avoid incoming fire and floating, slagged bulkheads. The debris makes it unlikely that either will land a clean hit; however, one of the pilots, thinking quickly, hides among the floating metal. When their enemy gets close, the pilot springs forth from hiding and catches their opponent unaware – making the shot much easier than normal.",
+								"Situations like this can cause pilots to gain {@b ACCURACY} or {@b DIFFICULTY}.",
+								{
+									"type": "list",
+									"items": [
+										"Each point of {@b ACCURACY} adds {@b 1d6} to a roll.",
+										"Each point of {@b DIFFICULTY} subtracts {@b 1d6} from a roll.",
+										"{@b ACCURACY} and {@b DIFFICULTY} cancel each other out on a 1:1 basis."
+									]
+								},
+								"If you are lucky enough to be rolling several of the same bonus dice, whether ACCURACY or DIFFICULTY, you don’t add them together to determine the result. Instead, find the highest number rolled and apply it to the final roll. Because of this, no roll can ever receive more than –6 or +6 from ACCURACY or DIFFICULTY.",
+								"For example:",
+								{
+									"type": "list",
+									"items": [
+										"For an attack with 2 ACCURACY, roll 2d6 and choose the highest of the two dice, then add that number to your attack roll. If you roll 3 on one die and 4 on the other, you add +4 to the roll, not +7.",
+										"For an attack with 2 ACCURACY and 1 DIFFICULTY, you only add 1d6 to your attack roll as 1 DIFFICULTY and 1 ACCURACY cancel each other out.",
+										"For an attack with 1 ACCURACY and 1 DIFFICULTY, you don’t add anything to the roll – the dice cancel each other out."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "GRIT",
+							"entries": [
+								"Pilots are lucky and unique individuals, multi-talented and resilient. Even so, brand-new pilots don’t measure up to tempered, battle-hardened veterans when push comes to shove. The benefits of experience are measured by {@b GRIT}, a bonus that reflects your pilot’s deep reservoirs of resolve and will to live.",
+								"{@b GRIT} is half of your character’s license level, rounded up. It improves attack bonuses, hit points, and save targets for both your pilot and your mech."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "任務、休息時間、和場景", "name": "Missions, Downtime, and Scenes",
+					"entries": [
+						"Ongoing games of Lancer are usually divided into {@b missions}, each of which might encompass one play session or several, separated by periods of {@b downtime}.",
+						"Missions have specific goals or objectives that can be completed within a discrete amount of time: destroying a building, breaking into a secure facility to recover vital data, evacuating civilians, uncovering a conspiracy, or holding the line against enemy attack, for example. Missions also provide some preparation time in which you can establish goals, stakes, and equipment for your characters.",
+						"If your character isn’t on a mission, you’re in {@b downtime}. This is the narrative space between missions, in which moment-to-moment action doesn’t matter as much and roleplaying matters much more. During downtime you can progress plots, projects, or personal stories, moving the clock forward as much or as little as you want. Days, months, and even years can pass in downtime, depending on the pace of your game.",
+						"In both missions and downtime, play is divided into {@b scenes}. A scene is a period of continuous dialogue, action, or activity that has a discrete starting and stopping point. This is called a scene because it’s helpful to think about it in cinematic terms: as long as the focus (or ‘camera’) is on the players and their action, a scene is happening. When the focus cuts away from the current scene, or the current action naturally ends, that’s when the scene should end too.",
+						"A single combat encounter or a dialogue between characters are both great examples of scenes, but a scene can also be something like a montage.",
+						"It’s important to pay attention to the beginning and end of scenes, as many special character and mech abilities end or reset at the end of a scene."
+					]
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "doc/001.png"
+					},
+					"width": "50%",
+					"height": "50%"
+				}
+			]
+		}
+	]
+}
