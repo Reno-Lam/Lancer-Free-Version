@@ -32,12 +32,21 @@
 "msg_copylink": "複製段落連結",
 
 
-"site_title": "Lancer 免費版中文站",
-"site_desc": "and the website description.",
+"site_title": "《Lancer》規則書（免費版）",
+"site_desc": "中文翻譯分享站",
 "intro_block": {
 	"type": "section",
 	"entries": [
 		"Here you can write some introduction for the website & game it self.",
+		{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://img.itch.zone/aW1nLzI3MzE0ODYuanBn/original/PF05J1.jpg"
+					},
+					"width": "50%",
+					"height": "50%"
+				},
 		{
 			"type": "section",
 			"name": "Introduction",
