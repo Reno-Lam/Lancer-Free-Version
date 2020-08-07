@@ -22,7 +22,7 @@ class NavBar {
 		addLi(navBar, "document.html", FMT("section_0"), true, "getting_started");
 		
 		// Building Pilots and Mechs
-		addLi(navBar, "document.html", FMT("section_1"));
+		addLi(navBar, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");
 		
 		// Mission, Uptime and Downtime
 		addLi(navBar, "document.html", FMT("section_2"));
