@@ -251,79 +251,93 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "調查", "name": "Investigate",
 							"entries": [
-								""
+								"研究一個主題，或是某些事物的細節。學習歷史上重要的題目，或是在特定的主題上滿腹經綸；調查謎團或破解謎題；透過研究和偵探工作找到人物。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "領導或啟發", "name": "Lead or Inspire",
 							"entries": [
-								""
+								"作一個激勵他人的演說，或是鼓勵一群人行動；有效率並有效地管理企業、船員、殖民者或是礦業公司；有效地指揮部隊，甚至可能是整隊軍隊作戰。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "治療", "name": "Patch",
 							"entries": [
-								""
+								"使用醫療知識來施藥、包紮傷口、止血、縫針、燒灼、中和毒素或是復甦。或是診治或研究疾病、病原體或病徵。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "擺架子", "name": "Pull Rank",
 							"entries": [
-								""
+								"對下屬擺架子：從他們身上得到情報、資源或援助，可能包括強迫他們。每當你想要威逼或說服可能會尊重你的軍事或其他權威的人時，你可能就在擺架子。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "審度時勢", "name": "Read a Situation",
 							"entries": [
-								""
+								"在情況或個人身上尋找弦外之音、動機或是威脅：使用直覺來判斷某人的動機、找出誰是真正的領袖，或是找出誰將會作魯莽的事；用直覺去判斷情況或是個人；感覺他人是否在對你說謊。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "炫耀", "name": "Show Off",
 							"entries": [
-								""
+								"作華麗、帥氣或是令人欽佩的事，通常但不一定和你的武器有關：命中微細的快速移動目標、將別人的帽或武器擊落、向別人投擲槍械來將對方擊昏、華麗地舞劍，或是擲矛來把逃跑的目標釘在地上。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "入微觀察", "name": "Spot",
 							"entries": [
-								""
+								"察覺隱藏或是難以看清的細節、物件或是人：發現埋伏、暗格或是偽裝人物；遙距跟蹤目標；從一段距離外判別物件、載具、機甲或是人們的細節、形狀和數量；追蹤人或是載具。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "保持冷靜", "name": "Stay Cool",
 							"entries": [
-								""
+								"在壓力下進行需要全神貫注、靈巧、速度或是精準的工作：當隊友和步步進逼的護衛交火時開鎖、小心地拆除炸彈，或是在敵火下修好卡彈的槍。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "求生", "name": "Survive",
 							"entries": [
-								""
+								"在嚴酷、惡劣或無情的環境下生存：真空太空、冰封凍原、海盜據點、罪惡殖民地、原始荒野或是灼熱沙漠。求生通常也包括穿越野外、定向，或是避開捕食者、落石、薄冰或熔岩原等自然危險。你也可能會試圖在人工環境求生，像是安全地在城市移動或是避開太空站的危險地區。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "掌控", "name": "Take Control",
 							"entries": [
-								""
+								"使用力量、暴力、存在感或是直接行動來控制事物。你控制的通常也是實物，像是別人拿著的物品如槍或是匙咭等。你亦可能會控制情況，強制在場的人聆聽、冷靜，或是停下手上工作。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "", "name": "",
+							"translate_name": "除去某人", "name": "Take Someone Out",
 							"entries": [
-								""
+								"快速而安靜地殺死或是解決某人，不論是肉搏還是遠距，並通常在對方注意到你之前。如果你在用狙擊鏡瞄準目標、準備用準確的指壓神經來使護衛昏倒、在決鬥時快速拔槍，或是從天花降下來割別人的喉，那麼你就是在除去某人。"
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "威脅", "name": "Threaten",
+							"entries": [
+								"使用力量或威脅來讓別人做你想的事；告訴別人你想他們做甚麼，和他們不做的話你會對他們做甚麼。威脅別人也可以包括勒索、把柄，或是其他差不多髒的手段。不論何種形式，在你威脅某人後通常也沒有甚麼機會修補你們之間的關係。"
+							]
+						},
+						{
+							"type": "entries",
+							"translate_name": "市井流言", "name": "Word on the Street",
+							"entries": [
+								"從街頭巷尾或是特定的社交場所聽到八卦、新聞或是傳言。"
 							]
 						}
 					]
