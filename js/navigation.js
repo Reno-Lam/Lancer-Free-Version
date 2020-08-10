@@ -51,7 +51,7 @@ class NavBar {
 		addLi(ulComp, "document.html", "Harrison Armory", true, "getting_started");
 
 		// License
-		addLi(navBar, "license.html", FMT("title_license"));
+		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");
 
 		// Settings
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
