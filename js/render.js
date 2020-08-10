@@ -334,7 +334,7 @@ function Renderer () {
 		textStack[0] += "<thead>";
 		textStack[0] += "<tr>";
 
-		const autoMkRoller = Renderer.isRollableTable(entry);
+		const autoMkRoller = false;//Renderer.isRollableTable(entry);
 		if (entry.colLabels) {
 			const len = entry.colLabels.length;
 			for (let i = 0; i < len; ++i) {
