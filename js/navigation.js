@@ -25,7 +25,7 @@ class NavBar {
 		addLi(navBar, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");
 		
 		// Mission, Uptime and Downtime
-		addLi(navBar, "document.html", FMT("section_2"));
+		addLi(navBar, "document.html", FMT("section_2"), true, "missions_uptime_and_downtime");
 		
 		// Mech Combat
 		addLi(navBar, "document.html", FMT("section_3"));

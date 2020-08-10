@@ -26,6 +26,7 @@ const HASH_TO_DATAFILE = {};
 HASH_TO_DATAFILE["example"] = "example-doc.json";
 HASH_TO_DATAFILE["getting_started"] = "section-0-getting-started.json";
 HASH_TO_DATAFILE["building_pilots_and_mechs"] = "section-1-building-pilots-and-mechs.json";
+HASH_TO_DATAFILE["missions_uptime_and_downtime"] = "section-2-missions-uptime-and-downtime.json";
 
 const IS_LOCAL_TEST = false;
 function getFakeData(){
