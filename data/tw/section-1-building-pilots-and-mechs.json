@@ -287,9 +287,11 @@
 						{
 						    "type": "table",
 						    "caption": "背景",
+							"colLabels": [
+							],
 						    "colStyles": [
-						        "col-2 text-align-center",
-						        "col-10 text-align-center"
+						        "col-1 text-align-left",
+						        "col-11 text-align-left"
 						    ],
 							"rows": [
 						        [
