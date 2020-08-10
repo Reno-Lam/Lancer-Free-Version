@@ -8,8 +8,7 @@
 				"headers": [
 					{ "translate_name": "LL0", "name": "LL0" },
 					{ "translate_name": "升級", "name": "Leveling Up" },
-					{ "translate_name": "重分配點數", "name": "Reallocating Points" },
-					{ "translate_name": "等級表", "name": "Level Chart" }
+					{ "translate_name": "重分配點數", "name": "Reallocating Points" }
 				]
 			},
 			{
@@ -100,31 +99,7 @@
 							]
 						},
 						"升級自然會使角色的{@b 毅力}升至總{@b LL}除二，進位至最近整數。駕駛員在{@b LL1}時得到第一點的{@b 毅力}。",
-						"每3級{@b LL}（{@b 3}、{@b 6}、{@b 9}和{@b 12}）也會讓駕駛員得到一項新的{@b 核心加成}——能用於他們所有機甲的強力改造。"
-						
-					]
-				},
-				{
-					"type": "entries",
-					"translate_name": "重分配點數", "name": "Reallocating Points",
-					"entries": [
-						"每次你的駕駛員提升{@b LL}時，你也可以選擇以下其中一項：",
-						{
-							"type": "list",
-							"items":[
-								"將其中一個天賦的所有等級重新分配到其他天賦中。",
-								"將其中一個牌照的所有等級重新分配到其他牌照中。",
-								"將其中一個核心加成換成另一個駕駛員能選擇的核心加成。"
-							]
-						},
-						"如果將等級從一個牌照重分配到另一個牌照後，代表你不再有資格得到擁有的核心加成的話，你必須將該核心加成換成你現在有資格得到的。"
-						
-					]
-				},
-				{
-					"type": "entries",
-					"translate_name": "等級表", "name": "Level Chart",
-					"entries": [
+						"每3級{@b LL}（{@b 3}、{@b 6}、{@b 9}和{@b 12}）也會讓駕駛員得到一項新的{@b 核心加成}——能用於他們所有機甲的強力改造。",
 						{
 							"type": "table",
 							"caption": "等級表",
@@ -266,6 +241,22 @@
   						       ]
   						   ]
  						}
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "重分配點數", "name": "Reallocating Points",
+					"entries": [
+						"每次你的駕駛員提升{@b LL}時，你也可以選擇以下其中一項：",
+						{
+							"type": "list",
+							"items":[
+								"將其中一個天賦的所有等級重新分配到其他天賦中。",
+								"將其中一個牌照的所有等級重新分配到其他牌照中。",
+								"將其中一個核心加成換成另一個駕駛員能選擇的核心加成。"
+							]
+						},
+						"如果將等級從一個牌照重分配到另一個牌照後，代表你不再有資格得到擁有的核心加成的話，你必須將該核心加成換成你現在有資格得到的。"
 						
 					]
 				}
