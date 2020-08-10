@@ -1,0 +1,40 @@
+{
+	"reference": {
+		"name": "License",
+		"id": "licensing",
+		"contents": [
+			{
+				"name": "License",
+				"headers": [
+					{ "name": "Useful Links" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"name": "License",
+			"entries": [
+				"{@i Lancer} is created by {@link Massif Press|https://massif-press.itch.io}.",
+				"The original pdf of this rulebook can be found at {@link itch.io|https://massif-press.itch.io/corebook-pdf-free}.",
+				"This non-official Chinese translation is made by Reno, and is authorised by members of Massif Press to be hosted online for non-commercial use.",
+				{
+					"type": "entries",
+					"name": "Useful Links",
+					"entries": [
+						{
+							"type": "list",
+							"items":[
+								"{@link COMP/CON Character Building Tool|https://compcon.app/}",
+								"{@link RetroGrade Minis|https://www.retrogrademinis.com/}",
+								"{@link Unofficial Discord Server|https://discord.gg/hQyBzmK}"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

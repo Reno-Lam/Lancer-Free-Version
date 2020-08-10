@@ -1,0 +1,45 @@
+{
+	"reference": {
+		"translate_name": "授權",
+		"name": "Document Example",
+		"id": "licensing",
+		"contents": [
+			{
+				"translate_name": "授權",
+				"name": "License",
+				"headers": [
+					{ "translate_name": "其他實用連結", "name": "Useful Links" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"translate_name": "授權",
+			"name": "License",
+			"entries": [
+				"《Lancer》原作者為{@link Massif Press|https://massif-press.itch.io}。",
+				"本規則書原英文版可於{@link itch.io|https://massif-press.itch.io/corebook-pdf-free}取得。",
+				"此非官方中文版翻譯由Reno製作，並已得Massif Press成員許可，以非商業形式發佈。",
+				{
+					"type": "entries",
+					"translate_name": "其他實用連結", 
+					"name": "Useful Links",
+					"entries": [
+						{
+							"type": "list",
+							"items":[
+								"{@link COMP/CON線上角色產生器|https://compcon.app/}",
+								"{@link RetroGrade Minis機甲點陣圖產生器|https://www.retrogrademinis.com/}（在左邊選單選擇mechs）",
+								"{@link 非官方Discord伺服器|https://discord.gg/hQyBzmK}",
+								"{@link 簡易戰鬥參考|https://docs.google.com/document/d/1BNusWKEfjOkd6ZyyY23gdjkUb7tnHYWbyxZKnRve_JA/edit#}"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
