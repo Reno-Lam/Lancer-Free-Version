@@ -1,20 +1,48 @@
 {
 	"reference": {
-		"name": "Document Example",
+		"translate_name": "第二章：任務和戰場內外",
+		"name": "Mission, Uptime and Downtime",
 		"id": "missions_uptime_and_downtime",
 		"contents": [
 			{
-				"name": "Introduction",
+				"translate_name": "遊戲結構",
+				"name": "The Structure of Play",
 				"headers": [
-					{ "name": "Section 1" },
-					{ "name": "Section 2" }
+					{ "translate_name": "第一章", "name": "The First Mission" },
+					{ "translate_name": "我們是誰？", "name": "Who Are We?" },
+					{ "translate_name": "誰給我們命令？", "name": "Who Gives Us Orders?" },
+					{ "translate_name": "我們過去為何？", "name": "What's Our History?" }
 				]
 			},
 			{
-				"name": "Cool stuff",
+				"translate_name": "任務",
+				"name": "The Mission",
 				"headers": [
-					{ "name": "table" },
-					{ "name": "image" }
+					{ "translate_name": "第一步：簡報", "name": "Stage One: Briefing" },
+					{ "translate_name": "第二步：準備", "name": "Stage Two: Preparation" },
+					{ "translate_name": "第三步：儲備", "name": "Stage Three: Reserves" },
+					{ "translate_name": "第四步：進場", "name": "Stage Four: Boots on the Ground" },
+					{ "translate_name": "第五步：任務結束和歸詢", "name": "Stage Five: Ending a Mission and Debrief" }
+				]
+			},
+			{
+				"translate_name": "任務和故事描述",
+				"name": "Mission and Narrative Play",
+				"headers": [
+					{ "translate_name": "故事描述和機甲戰鬥", "name": "Narrative Play vs Mech Combat" },
+					{ "translate_name": "進行技能判定", "name": "Making Skill Checks" },
+					{ "translate_name": "玩家主動權和NPC行動", "name": "Player Initiative & NPC Action" },
+					{ "translate_name": "故事描述中的戰鬥", "name": "Combat in Narrative Play" }
+				]
+			},
+			{
+				"translate_name": "休息時間",
+				"name": "Downtime",
+				"headers": [
+					{ "translate_name": "結構和自由模式", "name": "Structured and Freeform Play" },
+					{ "translate_name": "時間和休息時間", "name": "Time and Downtime" },
+					{ "translate_name": "儲備", "name": "Reserves" },
+					{ "translate_name": "休息行動", "name": "Downtime Actions" }
 				]
 			}
 		]
@@ -23,78 +51,289 @@
 	"data": [
 		{
 			"type": "section",
-			"translate_name": "介紹", "name": "Introduction",
+			"translate_name": "遊戲結構",
+			"name": "The Structure of Play",
 			"entries": [
-				"This is am example of doc format, we are using json file to store everything.",
+				"在《Lancer》裡，遊玩章節通常也是以{@b 任務（mission）}為基本單位：擁有最少一個明確目標或目的的戰鬥、行動或計劃。",
+				"一個任務一定會有明確的目標和風險——你會在開始行動前得知這兩者。有些事需要完成，而且通常也要盡快完成。這會在故事中創造出自然的張力，並且只能由玩家們的行動來解決。沒有玩家干涉的話，結果會相當不同，而且通常也會比較糟！",
+				"每一個任務也有以下這些步驟：",
 				{
-					"type": "section",
-					"translate_name": "章節一", "name": "Section 1",
+					"type": "list",
+					"items":[
+						"{@b 簡報（briefing）}：玩家或是GM決定這任務的目的，並由GM決定風險。",
+						"{@b 準備（preparation）}：玩家建造他們的機甲、選擇駕駛員裝備和作其他的準備。",
+						"{@b 儲備（reserves）}：玩家確立會帶到任務中的儲備。",
+						"{@b 進場（boots on the ground）}：玩家進入場景。"
+					]
+				},
+				"不論成敗，在每個任務結束時，駕駛員也會作任務歸詢、升級，然後進入{@b 休息時間（downtime）}這個在任務間的描述空間，讓他們能進行計劃、推進其故事，和為下一個任務作準備。",
+				"視任務的規模，它可以持續整個遊玩章節甚至橫跨數個。同樣地，雖然機會不大，你的群組也可能會在一個章節內完成多個任務。",
+				"以下的部份會較詳盡解釋每一個步驟，並由第一個章節的結構開始。",
+				{
+					"type": "entries",
+					"translate_name": "第一章", "name": "The First Mission",
 					"entries": [
-						"the quick-link function require the same section/paragraph name, and here is the example of the list:",
+						"在你開始玩之前，你應該花一點時間介紹駕駛員和任何在他們之間既有的關係。這部份會包含一些能讓你決定這些角色為甚麼會組隊的技巧和引子。當你足夠理解你的角色和他們在一起的原因後，你應該以任務{@b 簡報}來開始第一章。",
+						"如果部份玩家未能完全掌握角色的話，其實不用確定所有細項也能先開始第一章的。實際上，很多群組更為偏好先玩過第一章然後照情況來充實角色。"
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "我們是誰？",
+					"name": "Who Are We?",
+					"entries": [
+						"以下的列表讓你能夠以可選附件來幫助決定你的角色群組是怎樣子的。你甚至可以擲{@b 1d20}來得到隨機結果，或者創造你自己的概念。",
+						"無論你的選擇為何，你也該解釋為甚麼你的駕駛員會互相合作，而不是單純自私自利的個體。",
 						{
-							"type": "list",
-							"items":[
-								"bla bla bla",
-								"the link: {@link https://hazmole.github.io/d20.hero.srd/index.html}.",
-								"{@b bold text}"
-							]
-						},
+						    "type": "table",
+						    "caption": "身份",
+						    "colStyles": [
+						        "col-2 text-align-center",
+						        "col-10 text-align-center"
+						    ],
+						    "rows": [
+						        [
+									"{@b 1}",
+									"惡名昭彰的軍工複合體。"
+ 						        ],
+								[
+									"{@b 2}",
+									"尋求榮耀的戰士。"
+ 						        ],
+								[
+									"{@b 3}",
+									"聯盟的普通職業軍人。"
+ 						        ],
+								[
+									"{@b 4}",
+									"由當地星球招募的聯盟輔助單位。"
+ 						        ],
+								[
+									"{@b 5}",
+									"星球防衛軍的精銳特工。"
+ 						        ],
+								[
+									"{@b 6}",
+									"執法者。"
+ 						        ],
+								[
+									"{@b 7}",
+									"罪犯、竊匪和騙徒組成的幫派。"
+ 						        ],
+								[
+									"{@b 8",
+									"古老的軍團隨侍。"
+ 						        ],
+								[
+									"{@b 9",
+									"信仰更高存在的人。"
+ 						        ],
+								[
+									"{@b 10",
+									"古老皇胤的守護者。"
+ 						        ],
+								[
+									"{@b 11",
+									"企業保安、資產保護者。"
+ 						        ],
+								[
+									"{@b 12",
+									"探索未知之人。"
+ 						        ],
+								[
+									"{@b 13",
+									"海盜。"
+ 						        ],
+								[
+									"{@b 14",
+									"守衛家園者。"
+ 						        ],
+								[
+									"{@b 15",
+									"義軍先鋒。"
+ 						        ],
+								[
+									"{@b 16",
+									"無助弱者的救星。"
+ 						        ],
+								[
+									"{@b 17",
+									"為了賺錢溫飽的旅行者。"
+ 						        ],
+								[
+									"{@b 18",
+									"發明家、工程師和實驗體。"
+ 						        ],
+								[
+									"{@b 19",
+									"傳說的繼承人。"
+ 						        ],
+								[
+									"{@b 20",
+									"唯一能夠擋住大敵之人。"
+ 						        ]
+						    ]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "誰給我們命令？",
+					"name": "Who Gives Us Orders?",
+					"entries": [
+						"你可能也想有一個贊助人或是母組織，而那也可以在現在確立。以下的引子可幫你決定。",
 						{
-							"type": "entries",
-							"name": "second level section",
-							"entries": [
-								"Well, actually the section can have multiple level, though it look quite the same.",
-								{
-									"type": "entries",
-									"name": "3 level section",
-									"entries": [
-										"Ya"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Some title here",
-									"entries": [
-										"Yeah, look the same"
-									]
-								}
+						    "type": "table",
+						    "caption": "贊助人",
+						    "colStyles": [
+						        "col-2 text-align-center",
+						        "col-10 text-align-center"
+						    ],
+						    "rows": [
+						        [
+									"{@b 1-2}",
+									"任何金主。"
+ 						        ],
+								[
+									"{@b 3-4}",
+									"我們的上級指揮官。"
+ 						        ],
+								[
+									"{@b 5-6}",
+									"顯聖者或大祭司。"
+ 						        ],
+								[
+									"{@b 7-8}",
+									"企業贊助人或贊助商。"
+ 						        ],
+								[
+									"{@b 9-10",
+									"我們古老的騎士道或規條；我們的義務。"
+ 						        ],
+								[
+									"{@b 11-12",
+									"我們的導師和創立人。"
+ 						        ],
+								[
+									"{@b 13-14",
+									"我們的地方聯盟官吏和指揮部。"
+ 						        ],
+								[
+									"{@b 15-16",
+									"已死去良久的巨石耳語。"
+ 						        ],
+								[
+									"{@b 17-18",
+									"我們的君主或國王。"
+ 						        ],
+								[
+									"{@b 19-20",
+									"我們組織的長老。"
+ 						        ]
 							]
 						}
 					]
 				},
 				{
-					"type": "section",
-					"translate_name": "章節二", "name": "Section 2",
+					"type": "entries",
+					"translate_name": "我們過去為何？",
+					"name": "What's Our History?",
 					"entries": [
-						"I don't know what to say."
-					]
-				}
-			]
-		},
-		{
-			"type": "section",
-			"name": "Cool stuff",
-			"entries": [
-				"Here we present some cool syntax:",
-				{
-					"type": "section",
-					"name": "table",
-					"entries": [
-						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
+						"最後，你可能會想建立駕駛員之間既有的歷史和關係。在角色間加上個人歷史能創造故事引子和發展關係的機會。在玩家角色間建立關係能使角色扮演更有意義。雖然這樣說，如果你偏好的話，你也可以讓角色在沒有既有關係的情況下開始的。",
+						"以下是數種可以讓你快速建立個人歷史的方式。",
+						"其中一個方法是繞著桌子走，然後逐個或是逐對玩家詢問他們來建立他們的角色之間的簡短關係和經驗。如果你喜歡又有時間的話，你甚至可以用一兩個短場景來充實這歷史的細節。",
+						"另一個方法是讓玩家輪流問這個群組表中的一兩個問題。任何人也可以選擇其角色回應。",
+						"沒有人一定要回答問題，尤其是如果他們還不知道答案或問題讓他們不舒服。記得要尊重你的玩家同伴們！",
 						{
-							"type": "entries",
-							"name": "Assigning Difficulties",
-							"entries": [
-								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task."
-							]
+						    "type": "table",
+						    "caption": "個人歷史",
+						    "colStyles": [
+						        "col-2 text-align-center",
+						        "col-10 text-align-center"
+						    ],
+						    "rows": [
+						        [
+									"{@b 1}",
+									"誰和我是青梅竹馬、總角之交？"
+ 						        ],
+								[
+									"{@b 2}",
+									"誰差點殺死了我？"
+ 						        ],
+								[
+									"{@b 3}",
+									"誰和我相愛過？我還愛你嗎？"
+ 						        ],
+								[
+									"{@b 4}",
+									"誰和我曾是同袍？"
+ 						        ],
+								[
+									"{@b 5}",
+									"誰不相信我？"
+ 						        ],
+								[
+									"{@b 6}",
+									"誰和我一同飲醉超過一次？"
+ 						        ],
+								[
+									"{@b 7}",
+									"誰把我視作導師？"
+ 						        ],
+								[
+									"{@b 8",
+									"誰教會了我一切和建造機甲有關的事？"
+ 						        ],
+								[
+									"{@b 9",
+									"誰和我一起在惡劣環境中滯留過？"
+ 						        ],
+								[
+									"{@b 10",
+									"誰帶我進行我的第一個任務？"
+ 						        ],
+								[
+									"{@b 11",
+									"誰最可能會想要我給予建議？"
+ 						        ],
+								[
+									"{@b 12",
+									"誰知道我深藏的秘密？那是甚麼？"
+ 						        ],
+								[
+									"{@b 13",
+									"誰覺得對我瞭如指掌？"
+ 						        ],
+								[
+									"{@b 14",
+									"誰覺得完全無法理解我？"
+ 						        ],
+								[
+									"{@b 15",
+									"誰對我最好奇？"
+ 						        ],
+								[
+									"{@b 16",
+									"誰覺得我吸引？"
+ 						        ],
+								[
+									"{@b 17",
+									"誰覺得能夠教我一點事？"
+ 						        ],
+								[
+									"{@b 18",
+									"誰沒預料會和我再見？"
+ 						        ],
+								[
+									"{@b 19",
+									"誰無論如何也會支持我？"
+ 						        ],
+								[
+									"{@b 20",
+									"誰覺得我是朋友？"
+ 						        ]
+						    ]
 						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "image",
-					"entries": [
-						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!"
 					]
 				}
 			]
