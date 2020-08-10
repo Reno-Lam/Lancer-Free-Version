@@ -22,7 +22,9 @@ class NavBar {
 		addLi(navBar, "document.html", FMT("section_0"), true, "getting_started");
 		
 		// Building Pilots and Mechs
-		addLi(navBar, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");
+		const ulBuild = addDropdown(navBar, FMT("section_1"));
+		addLi(ulBuild, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");
+		addLi(ulBuild, "document.html", FMT("section_1_background"), true, "building_pilots_and_mechs");
 		
 		// Mission, Uptime and Downtime
 		addLi(navBar, "document.html", FMT("section_2"), true, "missions_uptime_and_downtime");
@@ -40,15 +42,16 @@ class NavBar {
 		const ulComp = addDropdown(navBar, FMT("section_4"));
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
-		addLi(ulComp, "document.html", "Talents", true, "talents");
-		addLi(ulComp, "document.html", "Gear and Systems", true, "getting_started");
-		addLi(ulComp, "document.html", "Pilot Gear", true, "getting_started");
-		addLi(ulComp, "document.html", "Introduction to Licensing", true, "getting_started");
-		addLi(ulComp, "document.html", "General Massive Systems", true, "getting_started");
-		addLi(ulComp, "document.html", "IPS-Northstar", true, "getting_started");
-		addLi(ulComp, "document.html", "Smith-Shimano Corpro", true, "getting_started");
-		addLi(ulComp, "document.html", "HORUS", true, "getting_started");
-		addLi(ulComp, "document.html", "Harrison Armory", true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_welcome"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_talents"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_gear"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_pilot_gear"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_licensing"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_GMS"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_IPSN"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_SSC"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_Horus"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4_HA"), true, "getting_started");
 
 		// License
 		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");
