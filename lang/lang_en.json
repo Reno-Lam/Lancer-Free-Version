@@ -33,27 +33,13 @@
 
 
 "site_title": "Lancer - Free version",
-"site_desc": "and the website description.",
+"site_desc": "Chinese Translation Site",
 "intro_block": {
-	"type": "section",
-	"entries": [
-		"Here you can write some introduction for the website & game it self.",
-		{
-			"type": "section",
-			"name": "Introduction",
-			"entries": [
-				"And the paragraph here. The structure is the same as document.json.",
-				{
-					"type": "list",
-					"items":[
-						"And yes, the bullet point.",
-						"2",
-						"3"
-					]
-				}
-			]
-		}
-	]
+	"type": "image",
+	"href": {
+						"type": "internal",
+						"path": "Cover.jpg"
+					}
 },
 "section_0": "Getting Started",
 "section_1": "Building Pilots and Mechs",
