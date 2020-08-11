@@ -4483,6 +4483,28 @@ ul.list.books > li > a > span.name:hover {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ce8483;
 }
 
+.actionBlock__title {
+  padding: 5px 10px;
+  margin: 7px 7px 0 7px;
+  border: 1px solid #656565;
+  background-color: #652020;
+  color: #ececec;
+}
+.actionBlock__trigger {
+  padding: 5px 10px;
+  margin: 0 7px;
+  border-left: 1px solid #656565;
+  border-right: 1px solid #656565;
+  background-color: #fff;
+  color: black;
+}
+.actionBlock__content {
+  padding: 5px 10px;
+  margin: 0 7px;
+  border: 1px solid #656565;
+  background: #ffe5e5;
+}
+
 /* Day Mode End */
 /* Night Mode */
 .night-mode {
@@ -5110,6 +5132,18 @@ ul.list.books > li > a > span.name:hover {
 }
 .night-mode .rd__h--0 .entry-title-inner div {
   transform: skew(0.25rad);
+}
+.night-mode .actionBlock__title {
+  background-color: #1e5248;
+  color: #ececec;
+}
+.night-mode .actionBlock__trigger {
+  background-color: #fff;
+  color: black;
+}
+.night-mode .actionBlock__content {
+  background-color: #d8ece8;
+  color: black;
 }
 
 /* Night Mode End */

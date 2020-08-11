@@ -1,0 +1,51 @@
+{
+	"talent": [
+		{
+			"name": "Ace",
+			"desc": [
+				"Every pilot brags about their abilities; occasionally, some even have the reputation to back it up. Harmonious Domesticity is one of these pilots. As an ace, they aren’t just ranked among the most qualified of pilots – they’re among the most qualified of lancers.",
+				"Whether you’re a talented rookie or a grizzled veteran, you’re one of these aces. Your skills as a pilot are notorious enough that your callsign is known throughout the system."
+			],
+			"abilities": [
+				{
+					"lvl": 1,
+					"name": "Acrobatics",
+					"entries": [
+						"While {@b flying}, you get the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You make all {@b AGILITY} checks and saves with +1 &#8853;.",
+								"Any time an attack misses you, you may fly up to {@b 2 spaces} in any direction as a {@b reaction}."
+							]
+						}
+					]
+				},
+				{
+					"lvl": 2,
+					"name": "Afterburners",
+					"entries": [
+						"When you {@b BOOST} while {@b flying}, you may move an additional {@b 1d6 spaces}, but take {@b heat equal to half that amount}."
+					]
+				},
+				{
+					"lvl": 3,
+					"name": "Supersonic",
+					"entries": [
+						"As a {@b quick action} on your turn, you may spin up your thrusters. If you end your turn {@b flying}, you may nominate a character within a {@b RANGE} equal to your {@b SPEED} and line of sight, and gain this reaction:",
+						{
+							"type": "actionBlock",
+							"name": "Supersonic",
+							"action": "reaction",
+							"frequency": "1/round",
+							"trigger": "Your target’s turn ends.",
+							"effect": [
+								"You fly to a space free and adjacent to them. There must be a path to do so but you can move even if the nominated character is no longer within your movement range or line of sight. This ignores engagement and does not provoke reactions."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

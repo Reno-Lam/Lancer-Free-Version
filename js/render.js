@@ -207,7 +207,6 @@ function Renderer () {
 				case "quote": this._renderQuote(entry, textStack, meta, options); break;
 				case "example": this._renderExample(entry, textStack, meta, options); break;
 				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
-				case "actionBlock": this._renderActionBlock(entry, textStack, meta, options); break;
 				case "optionBlock": this._renderOptionBlock(entry, textStack, meta, options); break;
 				case "advantageRow": this._renderAdvantageRow(entry, textStack, meta, options); break;
 
@@ -244,6 +243,8 @@ function Renderer () {
 				// misc
 				case "code": this._renderCode(entry, textStack, meta, options); break;
 				case "hr": this._renderHr(entry, textStack, meta, options); break;
+
+				default: Renderer._customTypeRender(type, entry, textStack, meta, options); break;
 			}
 
 			meta._typeStack.pop();
@@ -334,7 +335,7 @@ function Renderer () {
 		textStack[0] += "<thead>";
 		textStack[0] += "<tr>";
 
-		const autoMkRoller = Renderer.isRollableTable(entry);
+		const autoMkRoller = false;//Renderer.isRollableTable(entry);
 		if (entry.colLabels) {
 			const len = entry.colLabels.length;
 			for (let i = 0; i < len; ++i) {
@@ -636,28 +637,6 @@ function Renderer () {
 	};
 	this._renderModifier = function (entry, textStack, meta, options){
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
-	};
-
-	this._renderActionBlock = function (entry, textStack, meta, options){
-		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
-		if (entry.name != null) {
-			var name = entry.translate_name? entry.translate_name: entry.name;
-			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner" book-idx="${entry.name.toLowerCase()}">${name}</span>`;
-			if (entry.subtitle != null){
-				textStack[0] += `<span style="font-size: 1.1em;color:#ececec;float: right;">${entry.subtitle}</span>`;
-			}
-			textStack[0] += `</span></${this.wrapperTag}>`;
-			textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px;margin-top:0px; border: 1px solid #656565; border-bottom: 2px solid">`;
-		}
-		const len = entry.entries.length;
-		for (let i = 0; i < len; ++i) {
-			const cacheDepth = meta.depth;
-			meta.depth = 2;
-			this._recursiveRender(entry.entries[i], textStack, meta, {prefix: "<p>", suffix: "</p>"});
-			meta.depth = cacheDepth;
-		}
-		textStack[0] += `</${this.wrapperTag}>`;
 	};
 
 	this._renderOptionBlock = function (entry, textStack, meta, options){

@@ -3897,6 +3897,33 @@ ul.list.books > li > a > span.name:hover {
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ce8483;
 }
 
+.actionBlock {
+	&__title {
+		padding:5px 10px;
+		margin:7px 7px 0 7px;
+		border: 1px solid #656565;
+		background-color: #652020;
+		color: #ececec;
+	}
+
+	&__trigger {
+		padding:5px 10px;
+		margin:0 7px;
+		border-left: 1px solid #656565;
+		border-right: 1px solid #656565;
+		background-color: #fff;
+		color: black;
+	}
+
+	&__content {
+		padding:5px 10px;
+		margin:0 7px;
+		border: 1px solid #656565;
+		background: #ffe5e5;
+	}
+	
+}
+
 /* Day Mode End */
 
 /* Night Mode */
@@ -4716,6 +4743,21 @@ ul.list.books > li > a > span.name:hover {
 		}
 	}
 
+	.actionBlock {
+
+		&__title {
+			background-color: #1e5248;
+			color: #ececec;
+		}
+		&__trigger {
+			background-color: #fff;
+			color: black;
+		}
+		&__content {
+			background-color: #d8ece8;
+			color: black;
+		}
+	}
 }
 
 /* Night Mode End */
