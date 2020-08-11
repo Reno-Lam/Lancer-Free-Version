@@ -43,7 +43,7 @@
 		"path": "Cover.jpg"
 	}
 },
-"pep_talk": "本書內容、不安和《Lancer》"
+"pep_talk": "本書內容、不安和《Lancer》",
 "section_0": "開始遊玩",
 "section_1": "創造駕駛員和機甲",
 
@@ -51,6 +51,10 @@
 
 "section_2": "任務和戰場內外",
 "section_3": "機甲戰鬥",
+
+"effects": "狀態和狀況",
+"terminology": "戰鬥術語",
+
 "section_4": "彙編",
 
 "list_name": "名稱",

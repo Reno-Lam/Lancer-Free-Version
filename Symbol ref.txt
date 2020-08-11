@@ -1,0 +1,13 @@
+﻿HTML Entity (Decimal)
+Accuracy	⊕	&#8853;
+Difficulty	⊖	&#8854;
+Threat		⦻	&#10683;
+Range		
+Kinetic		⌀	&#8960;
+Energy		⚡	&#9889;
+Explosive	💥	&#128165;
+Burn		🔥	&#128293;
+Heat
+
+{@b 
+{@i 

@@ -32,7 +32,10 @@ class NavBar {
 		addLi(navBar, "document.html", FMT("section_2"), true, "missions_uptime_and_downtime");
 		
 		// Mech Combat
-		addLi(navBar, "document.html", FMT("section_3"), true, "mech_combat");
+		const ulCombat = addDropdown(navBar, FMT("section_3"));
+		addLi(ulCombat, "document.html", FMT("section_3"), true, "mech_combat");
+		addLi(ulCombat, "effects.html", FMT("effects"));
+		addLi(ulCombat, "terminology.html", FMT("terminology"));
 		
 		// Compendium
 

@@ -43,7 +43,7 @@
 		"path": "Cover.jpg"
 	}
 },
-"pep_talk": "On Content, Discomfort, and Lancer"
+"pep_talk": "On Content, Discomfort, and Lancer",
 "section_0": "Getting Started",
 "section_1": "Building Pilots and Mechs",
 
@@ -51,6 +51,10 @@
 
 "section_2": "Mission, Uptime and Downtime",
 "section_3": "Mech Combat",
+
+"effects": "Statuses and Conditions",
+"terminology": "Combat Terminology",
+
 "section_4": "Compendium",
 
 "list_name": "Name",
