@@ -36,10 +36,12 @@
 "site_desc": "Chinese Translation Site",
 "intro_block": {
 	"type": "image",
+	"width": "50%",
+	"height": "50%",
 	"href": {
-						"type": "internal",
-						"path": "Cover.jpg"
-					}
+		"type": "internal",
+		"path": "Cover.jpg"
+	}
 },
 "section_0": "Getting Started",
 "section_1": "Building Pilots and Mechs",
@@ -49,6 +51,11 @@
 "section_2": "Mission, Uptime and Downtime",
 "section_3": "Mech Combat",
 "section_4": "Compendium",
+"title_talents": "Talents",
+"list_name": "Name",
+
+"Trigger": "Trigger",
+"Effect": "Effect",
 
 "section_4_welcome": "Welcome to the Compendium",
 "section_4_talents": "Talents",

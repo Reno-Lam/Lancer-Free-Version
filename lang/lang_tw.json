@@ -36,10 +36,12 @@
 "site_desc": "中文翻譯分享站",
 "intro_block": {
 	"type": "image",
+	"width": "50%",
+	"height": "50%",
 	"href": {
-						"type": "internal",
-						"path": "Cover.jpg"
-					}
+		"type": "internal",
+		"path": "Cover.jpg"
+	}
 },
 "section_0": "開始遊玩",
 "section_1": "創造駕駛員和機甲",
@@ -49,6 +51,11 @@
 "section_2": "任務和戰場內外",
 "section_3": "機甲戰鬥",
 "section_4": "彙編",
+"title_talents": "天賦",
+"list_name": "名稱",
+
+"Trigger": "觸發",
+"Effect": "效果",
 
 "section_4_welcome": "歡迎來到彙編",
 "section_4_talents": "天賦",
