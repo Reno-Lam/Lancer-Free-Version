@@ -43,7 +43,7 @@ class NavBar {
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
 		addLi(ulComp, "document.html", FMT("section_4_welcome"), true, "getting_started");
-		addLi(ulComp, "data-page.html", FMT("section_4_talents"), true, "talents");
+		addLi(ulComp, "talents.html", FMT("section_4_talents"));
 		addLi(ulComp, "document.html", FMT("section_4_gear"), true, "getting_started");
 		addLi(ulComp, "document.html", FMT("section_4_pilot_gear"), true, "getting_started");
 		addLi(ulComp, "document.html", FMT("section_4_licensing"), true, "getting_started");
