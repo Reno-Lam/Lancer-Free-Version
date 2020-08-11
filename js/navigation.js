@@ -15,8 +15,10 @@ class NavBar {
 
 	static initElements () {
 		const navBar = document.getElementById("navbar");
-
-		addLi(navBar, "index.html", FMT("nav_home"));
+		
+		const ulHome = addDropdown(navBar, FMT("nav_home"));
+		addLi(ulHome, "index.html", FMT("nav_home"));
+		addLi(ulHome, "document.html", FMT("pep_talk"));
 		
 		// Getting Started
 		addLi(navBar, "document.html", FMT("section_0"), true, "getting_started");
@@ -30,7 +32,7 @@ class NavBar {
 		addLi(navBar, "document.html", FMT("section_2"), true, "missions_uptime_and_downtime");
 		
 		// Mech Combat
-		addLi(navBar, "document.html", FMT("section_3"));
+		addLi(navBar, "document.html", FMT("section_3"), true, "mech_combat");
 		
 		// Compendium
 

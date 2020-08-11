@@ -82,14 +82,14 @@
 	var app = angular.module('myApp', []);
 	app.controller('myCtrl', function($scope) {
 		$scope.FMT = FMT;
-		$scope.token = FMT("section_1_background");
+		$scope.token = FMT("backgrounds");
 	});
-	$(".page__title").html(   FMT("section_1_background"));
+	$(".page__title").html(   FMT("backgrounds"));
 	$(".page__subtitle").html("");
 	
 	// Data page Setting
 	const JSON_URL = "backgrounds.json";
-	const CUSTOM_RENDERER = Renderer.backgrounds;
+	const CUSTOM_RENDERER = Renderer.generic;
 	const CUSTOM_TOKEN = "backgrounds";
 	const DATA_LIST_ITEM_SETTING_ARR = [
 		{ key: "name", width: "12", display: FMT("list_name")}];

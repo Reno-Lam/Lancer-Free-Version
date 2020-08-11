@@ -1,0 +1,175 @@
+{
+	"reference": {
+		"translate_name": "第二章：任務和戰場內外",
+		"name": "Section 3: Mech Combat",
+		"id": "mech_combat",
+		"contents": [
+			{
+				"translate_name": "戰鬥基本",
+				"name": "Combat Basics",
+				"headers": [
+					{ "translate_name": "角色與物件", "name": "Characters and Objects" },
+					{ "translate_name": "空間、大小和量度", "name": "Space, Size, and Measurement" }
+				]
+			},
+			{
+				"translate_name": "回合制戰鬥",
+				"name": "Turn-based Combat",
+				"headers": [
+					{ "translate_name": "移動", "name": "Movement" },
+					{ "translate_name": "攻擊", "name": "Attacks" },
+					{ "translate_name": "損傷", "name": "Harm" },
+					{ "translate_name": "行動", "name": "Actions" }
+				]
+			},
+			{
+				"translate_name": "機甲戰鬥中的駕駛員",
+				"name": "Pilots in Mech Combat",
+				"headers": [
+					{ "translate_name": "操縱機甲", "name": "Piloting Mechs" },
+					{ "translate_name": "非人類個體", "name": "Non-human Persons" }
+				]
+			},
+			{
+				"translate_name": "簡便戰鬥參照",
+				"name": "Quick Combat Reference",
+				"headers": [
+				]
+			},
+			{
+				"translate_name": "狀態和狀況",
+				"name": "Statuses and Conditions",
+				"headers": [
+					{ "translate_name": "狀態", "name": "Statuses" },
+					{ "translate_name": "狀況", "name": "Conditions" },
+					{ "translate_name": "戰鬥術語", "name": "Combat Terminology" }
+				]
+			},
+			{
+				"translate_name": "磨損",
+				"name": "Wear and Tear",
+				"headers": [
+					{ "translate_name": "傷害和結構", "name": "Damage and Structure" },
+					{ "translate_name": "過熱和壓力", "name": "Overheating and Stress" },
+					{ "translate_name": "維修和休息", "name": "Repairs and Rest" },
+					{ "translate_name": "死亡", "name": "Death" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"translate_name": "戰鬥基本",
+			"name": "Combat Basics",
+			"entries": [
+				"你有可能會玩完整個《Lancer》的章節也沒有碰到過機甲，更勿論是在機甲上戰鬥。有些團偏好把遊戲重點放在角色扮演和政治，並且以技能判定來解決大部份的衝突。",
+				"儘管如此，槍騎兵們均擁有一個在任務中難以避免的特殊才能：開機甲戰鬥。即使你在玩比較重視描述的遊戲，你有些時候會發現自己想戰鬥更重視戰術層面，而每一個決定也更為重要——你想要挑戰你的創意，並且活用你建造的機甲和戰鬥技能。這時候，就是進入機甲戰鬥的時機了。",
+				"和故事描述不同，機甲戰鬥以{@b 戰術回合制}為主。它同時也是以機甲為焦點——你當然可以將機甲戰鬥規則用在駕駛員互鬥，但選項會變得明顯沒趣。",
+				"在演出機甲之間的戰鬥時，使用機甲戰鬥規則和故事描述有數個明顯的分別：",
+				"在機甲戰鬥裡，你不是使用觸發和技能判定，而是用{@b 攻擊判定}、{@b 機甲能力判定}和{@b 豁免}判定來斷定衝突的結果。玩家會輪流在他們的回合時使用特定的動作類型。",
+				"戰鬥的{@b 賭注}來得要高，而規模也更為宏大。無論你的駕駛員有甚麼其他的技能，只有他們在機甲裡戰鬥的經驗才能夠幫助他們成功。駕駛員不會從觸發中，而是從{@b 毅力}得到攻擊判定和豁免判定的加成。",
+				{
+					"type": "entries",
+					"translate_name": "角色與物件",
+					"name": "Characters and Objects",
+					"entries": [
+						"在戰鬥時，機甲通常會和兩類東西互動：{@b 角色}和{@b 物件}。",
+						"整體來說，角色是任何能夠獨自行動的東西。這包括玩家操縱的駕駛員和機甲等{@b 玩家角色（PC）}，和由GM操縱的{@b 非玩家角色（NPC）}。只要能夠獨自行動或是反應的話，無人機和自動炮台等非靈性物體也能算是角色。",
+						"視他們對你（多於你對他們）的態度，角色可以是{@b 敵對}或是{@b 友善}。{@b 你永遠也不算是你自己的隊友。}",
+						"任何不是角色而又不是角色穿著、帶著或是他們一部份的東西也能算是物件。這包括地形特徵（如牆、岩石和樹）和擺放或展開著的裝備（如護盾產生器和地雷）。"
+					]
+				},
+				{
+					"type": "entries",
+					"translate_name": "空間、大小和量度",
+					"name": "Space, Size, and Measurement",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "",
+			"name": "",
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"translate_name": "",
+					"name": "",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "",
+			"name": "",
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"translate_name": "",
+					"name": "",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "",
+			"name": "",
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"translate_name": "",
+					"name": "",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "",
+			"name": "",
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"translate_name": "",
+					"name": "",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "",
+			"name": "",
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"translate_name": "",
+					"name": "",
+					"entries": [
+						""
+					]
+				}
+			]
+		}
+	]
+}

@@ -74,7 +74,7 @@ Renderer.exampleData = {
 		`);
 	},
 };
-Renderer.backgrounds = {
+Renderer.generic = {
 	getCompactRenderedString: function (entry) {
 
 		return (`

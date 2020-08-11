@@ -1,0 +1,70 @@
+{
+	"reference": {
+		"name": "Document Example",
+		"id": "mech_combat",
+		"contents": [
+			{
+				"name": "Combat Basics",
+				"headers": [
+					{ "name": "Characters and Objects" },
+					{ "name": "Space, Size, and Measurement" }
+				]
+			},
+			{
+				"name": "Turn-based Combat",
+				"headers": [
+					{ "name": "Movement" },
+					{ "name": "Attacks" },
+					{ "name": "Harm" },
+					{ "name": "Actions" }
+				]
+			},
+			{
+				"name": "Pilots in Mech Combat",
+				"headers": [
+					{ "name": "Piloting Mechs" },
+					{ "name": "Non-human Persons" }
+				]
+			},
+			{
+				"name": "Quick Combat Reference",
+				"headers": [
+				]
+			},
+			{
+				"name": "Statuses and Conditions",
+				"headers": [
+					{ "name": "Statuses" },
+					{ "name": "Conditions" },
+					{ "name": "Combat Terminology" }
+				]
+			},
+			{
+				"name": "Wear and Tear",
+				"headers": [
+					{ "name": "Damage and Structure" },
+					{ "name": "Overheating and Stress" },
+					{ "name": "Repairs and Rest" },
+					{ "name": "Death" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"translate_name": "介紹", "name": "Introduction",
+			"entries": [
+				"This is am example of doc format, we are using json file to store everything.",
+				{
+					"type": "section",
+					"translate_name": "章節二", "name": "Section 2",
+					"entries": [
+						"I don't know what to say."
+					]
+				}
+			]
+		}
+	]
+}
