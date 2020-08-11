@@ -1,7 +1,8 @@
 {
-	"talent": [
+	"talents": [
 		{
-			"translate_name": "王牌", "name": "Ace",
+			"translate_name": "王牌",
+			"name": "Ace",
 			"desc": [
 				"每個駕駛員都會吹噓他們的能力，有時候，他們甚至擁有能做為其後盾的聲望。和家活是其中一個這樣的駕駛員。身為王牌的他不僅僅只是最有資格的駕駛員──而是最有資格的槍騎兵。",
 				"無論你是天資聰穎的新星、還是身經百戰的老手，你同時也是個王牌。你做為駕駛員的能力舉世聞名，甚至到了你的外號傳遍整個星系的程度。"
@@ -9,7 +10,8 @@
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "雜技", "name": "Acrobatics",
+					"translate_name": "雜技",
+					"name": "Acrobatics",
 					"entries": [
 						"在{@b 飛行}時，你得到以下的好處：",
 						{
@@ -23,21 +25,23 @@
 				},
 				{
 					"lvl": 2,
-					"translate_name": "後燃推進", "name": "Afterburners",
+					"translate_name": "後燃推進", 
+					"name": "Afterburners",
 					"entries": [
 						"當你在{@b 飛行}時使用{@b 推進}，你可以額外移動{@b 1d6 格}，但同時也會承受{@b 等同該數值一半的熱度}。"
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "超音速", "name": "Supersonic",
+					"translate_name": "超音速", 
+					"name": "Supersonic",
 					"entries": [
 						"在你的回合，你能夠以一個{@b 快速動作}來啟動推進器。如果你在回合結束時仍在{@b 飛行}，你可以指定一個位於視線範圍內，且{@b 距離}不大於你的{@b 速度值}的角色，並獲得以下的反應動作：",
 						{
 							"type": "actionBlock",
 							"translate_name": "超音速", "name": "Supersonic",
-							"action": "reaction",
-							"frequency": "1/round",
+							"action": "反應",
+							"frequency": "每輪一次",
 							"trigger": "你的目標結束其回合時。",
 							"effect": [
 								"你飛到一個與目標鄰接的空格。你與目的地之間必須要有一條能讓你到達該位置的通路。即使目標已經不再處於你的移動範圍或視線範圍內，你仍然可以使用此動作。這個移動無視「交戰」的限制影響，也不會因此觸發其他反應動作。"
