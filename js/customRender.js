@@ -74,6 +74,16 @@ Renderer.exampleData = {
 		`);
 	},
 };
+Renderer.backgrounds = {
+	getCompactRenderedString: function (entry) {
+
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			${Renderer.general.getTr(entry.desc.map(text=>`<p>${text}</p>`).join(""))}
+		`);
+	}
+
+};
 Renderer.talent = {
 	getCompactRenderedString: function (entry) {
 		var abilityStack = entry.abilities.map(a=>Renderer.talent.getTalentAbilityBlock(a));

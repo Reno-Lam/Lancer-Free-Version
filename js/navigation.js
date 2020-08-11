@@ -23,8 +23,8 @@ class NavBar {
 		
 		// Building Pilots and Mechs
 		const ulBuild = addDropdown(navBar, FMT("section_1"));
-		addLi(ulBuild, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");
-		addLi(ulBuild, "document.html", FMT("section_1_background"), true, "building_pilots_and_mechs");
+		addLi(ulBuild, "document.html", FMT("section_1"), true, "building_pilots_and_mechs");	
+		addLi(ulBuild, "backgrounds.html", FMT("backgrounds"));
 		
 		// Mission, Uptime and Downtime
 		addLi(navBar, "document.html", FMT("section_2"), true, "missions_uptime_and_downtime");
@@ -43,7 +43,7 @@ class NavBar {
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
 		addLi(ulComp, "document.html", FMT("section_4_welcome"), true, "getting_started");
-		addLi(ulComp, "talents.html", FMT("section_4_talents"));
+		addLi(ulComp, "talents.html", FMT("talents"));
 		addLi(ulComp, "document.html", FMT("section_4_gear"), true, "getting_started");
 		addLi(ulComp, "document.html", FMT("section_4_pilot_gear"), true, "getting_started");
 		addLi(ulComp, "document.html", FMT("section_4_licensing"), true, "getting_started");
