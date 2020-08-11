@@ -1,7 +1,7 @@
 {
 	"reference": {
 		"name": "Document Example",
-		"id": "getting_started",
+		"id": "missions_uptime_and_downtime",
 		"contents": [
 			{
 				"name": "Introduction",
@@ -23,12 +23,12 @@
 	"data": [
 		{
 			"type": "section",
-			"name": "Introduction",
+			"translate_name": "介紹", "name": "Introduction",
 			"entries": [
 				"This is am example of doc format, we are using json file to store everything.",
 				{
 					"type": "section",
-					"name": "Section 1",
+					"translate_name": "章節一", "name": "Section 1",
 					"entries": [
 						"the quick-link function require the same section/paragraph name, and here is the example of the list:",
 						{
@@ -64,7 +64,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Section 2",
+					"translate_name": "章節二", "name": "Section 2",
 					"entries": [
 						"I don't know what to say."
 					]

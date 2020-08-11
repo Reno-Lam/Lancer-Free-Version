@@ -45,6 +45,9 @@
 },
 "section_0": "開始遊玩",
 "section_1": "創造駕駛員和機甲",
+
+"section_1_background": "背景",
+
 "section_2": "任務和戰場內外",
 "section_3": "機甲戰鬥",
 "section_4": "彙編",
@@ -53,6 +56,17 @@
 
 "Trigger": "觸發",
 "Effect": "效果",
+
+"section_4_welcome": "歡迎來到彙編",
+"section_4_talents": "天賦",
+"section_4_gear": "裝備和系統",
+"section_4_pilot_gear": "駕駛員裝備",
+"section_4_licensing": "牌照介紹",
+"section_4_GMS": "通用重型系統",
+"section_4_IPSN": "極星船運",
+"section_4_SSC": "斯密—島野財團",
+"section_4_Horus": "荷魯斯",
+"section_4_HA": "哈里遜兵工廠",
 
 "...": "..."
 
