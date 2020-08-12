@@ -1,0 +1,12 @@
+{
+	"effects": [
+		{
+			"type": "Status",
+			"name": "Danger Zone",
+			"affected": "Mech",
+			"desc": [
+				"Characters are in the <b>DANGER ZONE</b> when half or more of their heat is filled in. They’re smoking hot, which enables some attacks, talents, and effects."
+			]
+		}
+	]
+}

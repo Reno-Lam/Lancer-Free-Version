@@ -1,0 +1,10 @@
+{
+	"terminology": [
+		{
+			"name": "Armor",
+			"desc": [
+				"All kinetic, energy, and explosive damage is reduced by an amount equal to a character’s <b>ARMOR</b>. Mechs can’t have more than 4 <b>ARMOR</b>."
+			]
+		}
+	]
+}

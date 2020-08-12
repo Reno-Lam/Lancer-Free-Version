@@ -82,32 +82,27 @@
 	var app = angular.module('myApp', []);
 	app.controller('myCtrl', function($scope) {
 		$scope.FMT = FMT;
-		$scope.token = FMT("actions");
+		$scope.token = FMT("terminology");
 	});
-	$(".page__title").html(   FMT("actions"));
+	$(".page__title").html(   FMT("terminology"));
 	$(".page__subtitle").html("");
 	
 	// Data page Setting
-	const JSON_URL = "actions.json";
+	const JSON_URL = "terminology.json";
 	const CUSTOM_RENDERER = Renderer.generic;
-	const CUSTOM_TOKEN = "actions";
+	const CUSTOM_TOKEN = "terminology";
 	const DATA_LIST_ITEM_SETTING_ARR = [
-		{ key: "name", width: "4", display: FMT("list_name")},
-		{ key: "type", width: "4", display: FMT("list_type")},
-		{ key: "user", width: "4", display: FMT("list_user")}];
-	const DEFAULT_SORT = "type";
+		{ key: "name", width: "12", display: FMT("list_name")}];
+	const DEFAULT_SORT = "name";
 	
 	// List item
 	function getGeneralListItem (entry) {
 		var name = entry.translate_name? entry.translate_name: entry.name;
 		var type = entry.type;
-		var user = entry.user;
 		var customKey = entry["custom-key"];
 
 		return `
-				<span class="name col-4">${name}</span>
-				<span class="type col-4 text-align-center">${type}</span>
-				<span class="type col-4 text-align-center">${user}</span>
+				<span class="name col-12">${name}</span>
 			`;
 	}
 

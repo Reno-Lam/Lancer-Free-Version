@@ -60,6 +60,8 @@
 
 "list_name": "Name",
 "list_type": "Type",
+"list_user": "Usable by:",
+"list_affected": "Can affect:",
 
 "Trigger": "Trigger",
 "Effect": "Effect",

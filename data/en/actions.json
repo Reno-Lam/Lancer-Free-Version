@@ -3,8 +3,9 @@
 		{
 			"name": "Boost",
 			"type": "Quick Action",
+			"user": "Mech, Pilot",
 			"desc": [
-				"When you {@b BOOST}, you move at least 1 space, up to your{@b SPEED}. This allows you to make an extra movement, on top of your standard move. Certain talents and systems can only be used when you {@b BOOST}, not when you make a standard move."
+				"When you <b>BOOST</b>, you move at least 1 space, up to your <b>SPEED</b>. This allows you to make an extra movement, on top of your standard move. Certain talents and systems can only be used when you <b>BOOST</b>, not when you make a standard move."
 			]
 		}
 	]

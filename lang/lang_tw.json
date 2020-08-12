@@ -60,6 +60,8 @@
 
 "list_name": "名稱",
 "list_type": "類型",
+"list_user": "能使用者",
+"list_affected": "受影響者",
 
 "Trigger": "觸發",
 "Effect": "效果",

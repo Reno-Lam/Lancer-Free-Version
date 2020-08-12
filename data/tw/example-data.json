@@ -1,19 +1,11 @@
 {
 	"example-data": [
 		{
-			"translate_name": "筆", "name": "Pen",
 			"type": "tool",
-			"custom-key": "This is a pen",
-			"entries": [
+			"translate_name": "筆",
+			"name": "Pen",
+			"desc": [
 				"This is the main context of the entry."
-			]
-		},
-		{
-			"translate_name": "蘋果", "name": "Apple",
-			"type": "food",
-			"custom-key": "This is an apple",
-			"entries": [
-				"An apple a day, keep the doctor away."
 			]
 		}
 	]
