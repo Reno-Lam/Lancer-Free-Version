@@ -1,0 +1,213 @@
+{
+	"reference": {
+		"translate_name": "第四章：彙編",
+		"name": "Section 4: Compendium",
+		"id": "compendium",
+		"contents": [
+			{
+				"translate_name": "歡迎來到彙編",
+				"name": "Welcome to the Compendium",
+				"headers": [
+				]
+			},
+			{
+				"translate_name": "天賦",
+				"name": "Talents",
+				"headers": [
+				]
+			},
+			{
+				"translate_name": "裝備和系統",
+				"name": "Gear and Systems",
+				"headers": [
+					{ "translate_name": "裝備標籤", "name": "Gear Tags" },
+					{ "translate_name": "", "name": "Artificial Intelligence" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "Pilot Gears",
+				"headers": [
+					{ "translate_name": "", "name": "Archaic Weapons" },
+					{ "translate_name": "", "name": "Alloy/Composite Weapons (Melee)" },
+					{ "translate_name": "", "name": "Signature Weapons (Ranged)" },
+					{ "translate_name": "", "name": "Hardsuits (Armor)" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "Introduction to Licensing",
+				"headers": [
+					{ "translate_name": "", "name": "Leveling Up" },
+					{ "translate_name": "", "name": "The Big Four" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "General Massive Systems",
+				"headers": [
+					{ "translate_name": "", "name": "GMS Core Bonuses" },
+					{ "translate_name": "", "name": "GMS Mech Weapons" },
+					{ "translate_name": "", "name": "GMS Flight Systems" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "IPS-Northstar",
+				"headers": [
+					{ "translate_name": "", "name": "IPS-N Core Bonuses" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "Smith-Shimano Corpro",
+				"headers": [
+					{ "translate_name": "", "name": "SSC Core Bonuses" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "HORUS",
+				"headers": [
+					{ "translate_name": "", "name": "HORUS Core Bonuses" }
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "Harrison Armory",
+				"headers": [
+					{ "translate_name": "", "name": "HA Core Bonuses" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "entries",
+			"translate_name": "歡迎來到彙編",
+			"name": "Welcome to the Compendium",
+			"entries": [
+				"到這裡為止，這書都是關於如何遊玩《Lancer》的——如何創造駕駛員和機甲、故事描述和機甲戰鬥如何運作，以及其他講述劇情的必要工具。相對來說，彙編則是包含了所有玩家能夠使用的角色選項。當你開始創造你的角色，並且準備開始時，這就是你須看的部份。",
+				"彙編包含了以下數個章節：",
+				{
+					"type": "list",
+					"items": [
+						"{@b 天賦}：創造和微調你的駕駛員的選項。",
+						"{@b 裝備和系統標籤}：附在裝備上的特殊描述，以及它們的意思。",
+						"{@b 駕駛員裝備}：任何駕駛員可能會想在執行任務時帶著的東西。",
+						"{@b 機甲}：所有機甲的規則和描述，以生產商來排序。"
+					]
+				},
+				"在機甲目錄裡，第一個生產商是{@b 通用重型系統（GMS）}。所有的駕駛員也能使用GMS武器、裝備、{@b 核心加成}以及{@b GMS-SP1埃佛勒斯}的{@b 骨架}，而那也是{@b LL0}駕駛員唯一能使用的{@b 骨架}。",
+				"除此之外，這裡也包括了另外四家機甲生產商：{@b 極星船運（IPS-N）}、{@b 斯密—島野財團（SSC）}、{@b 荷魯斯（HORUS）}和{@b 哈里遜兵工廠（HA）}，連帶他們各自的{@b 核心加成}、{@b 骨架}、武器和裝備。每一個生產商（和每一個{@b 骨架}）也有其獨有的風格、強項和弱項，來幫助你建造最適合你的角色的機甲。"
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "天賦",
+			"name": "Talents",
+			"entries": [
+				"天賦代表機甲駕駛員獨有的知識、經驗和訓練。和{@b 觸發}不同，天賦純粹只和操縱機甲有關。除非另外指明，否則它們只適用於機甲武器和系統上。",
+				"每一個天賦也分為{@b 一級}、{@b 二級}和{@b 三級}。在{@b LL0}時，駕駛員可以選擇任意三個{@b 一級}的天賦。當他們的{@b LL}提升時，駕駛員可選擇將其中一個天賦提升一級（從{@b 一級}升到{@b 二級}），或是選擇一個新的{@b 一級}天賦。這就像是鑽研既有的知識和利用新的技能來拓寬他們的能力。",
+				{
+					"type": "quote",
+					"entries": [
+						"譯註：為方便查閱，天賦列表和說明已移至{@link 相應資料分頁|https://reno-lam.github.io/Lancer-Free-Version/talents.html}。"
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"translate_name": "裝備和系統",
+			"name": "Gear amd Systems",
+			"entries": [
+				{
+					"type": "entries",
+					"translate_name": "裝備標籤",
+					"name": "Gear Tags",
+					"entries": [
+						"標籤（tag）是用來形容一件裝備如何運作，和它附有甚麼規則的特殊用字。",
+						"當標籤後附有{@b X}的話，{@b X}就是與之相關的數值（如{@b 裝甲}、傷害、空間）。",
+						"注意特例勝於通例這點。這代表如果特定系統與這裡的規則有異的話，你該使用該系統特有的特殊規則。",
+						{
+							"type": "entries",
+							"translate_name": "武器標籤",
+							"name": "Weapon Tags",
+							"entries": [
+								{
+									"type": "entries",
+									"translate_name": "大小",
+									"name": "Size",
+									"entries": [
+										"武器有其大小（{@b 副}、{@b 主}、{@b 重型}、{@b 超重型}），並必須安裝在大小不小於它的可用掛載點上。只有{@b 副}武器和{@b 超重型}武器有其特殊規則。",
+										{
+											"type": "list",
+											"items": [
+												"{@b 副}：小型的機甲武器。機甲交火或展開彈幕時，可使用在進行攻擊的同一個掛載點上的{@b 副}武器一同攻擊，不過這樣攻擊的{@b 副}武器不會造成額外傷害。",
+												"{@b 超重型}：通常很罕見、實驗性或是獨特的超大型機甲武器。{@b 超重型}武器需要重型掛載點和另一個掛載點，只能在展開{@b 彈幕時攻擊}，並且不能用來{@b 守望}。"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"translate_name": "類型",
+									"name": "Type",
+									"entries": [
+										"機甲武器有六種類：",
+										{
+											"type": "list",
+											"items": [
+												"{@b 肉搏}武器是機甲大小的劍、斧、動力工具，以及其他肉搏用的武器。機甲的蠻力甚至能夠讓簡陋的工具也變得相當可怕。",
+												"{@b CQB（近身戰鬥）}武器是用來在近距離戰鬥是用的武器，包括手槍、散彈槍、火焰噴射器，以及像釘槍等特殊武器。它們通常射程有限，但更適合用來快速回應迫近的威脅。",
+												"{@b 步槍}是射程和制止力也相當理想的穩健武器。",
+												"{@b 發射器}是發射導彈、榴彈和其他拋射物的武器。",
+												"{@b 大炮}是適合用來對敵人造成重大傷害的大口徑武器。儘管準度低落，它們通常也擁有足夠火力來彌補。",
+												"{@b 巢房}是用來存放和發射大量自帶動力的武裝無人機的武器。"
+											]
+										},
+										"注意：{@b CQB}、{@b 步槍}、{@b 發射器}、{@b 大炮}和{@b 巢房}武器也是{@b 遠距武器}，因此即使面對{@b 威脅}範圍內的敵人，也都是進行{@b 遠距攻擊}。"
+									]
+								},
+								{
+									"type": "entries",
+									"translate_name": "傷害類型",
+									"name": "Harm Type",
+									"entries": [
+										"武器會造成以下四種其中一種的傷害：{@b 爆炸&#128165;}、{@b 動能&#8960;}、{@b 能量&#9889;}或{@b 燃燒&#128293;}。它們也能造成額外傷害和{@b 熱度&#127777;}。",
+										{
+											"type": "list",
+											"items": [
+												"{@b 燃燒X}：命中時，這武器會對目標造成{@b X&#128293;}。他們會即時受到忽略{@b 裝甲}的{@b 燃燒傷害}，並在角色紙上記下受到的{@b 燃燒量（X&#128293;）}，並將之與任何既有燃燒量相加。在他們的回合結束時，記下了燃燒量的角色須作{@b 工程｝判定。成功的話，角色可清除所有記下的燃燒量；失敗的話，他們將受到與已紀錄的燃燒等量的&#128293;傷害。",
+												"{@b 熱度X（目標）}：命中時，這武器或系統會對目標造成{@b X&#127777;}。"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"translate_name": "樣式",
+									"name": "Patterns",
+									"entries": [
+										"部份武器和系統有特殊的攻擊樣式：{@b 線性&#8663;}、{@b 錐形&#127881;}、{@b 濺射&#128320;}和{@b 爆發&#9672;}。這些攻擊會影響特定範圍內的所有目標。每一個目標也須分別進行攻擊判定，不過傷害骰只會擲一次，而在同時影響多個目標的時候，額外傷害會減半。",
+										{
+											"type": "list",
+											"items": [
+												"{@b &#8663;X}：影響在X格長的直線上的角色。",
+												"{@b &#127881;X}：影響在X格長和在最遠處X格闊的錐形內的角色。錐形的起點闊度為一格。",
+												"{@b &#128320;X}：影響和{@b 射程&#9023;}及視線範圍內任意一點距離X格空間以內的角色。對該攻擊的掩護和視線以濺射的中心位置，而非攻擊者的位置來計算。",
+												"{@b &#9672;X}：影響和使用者（或目標）距離{@b X格}空間以內的角色。除非特別指明，否則使用者或是目標不會受到爆發攻擊的影響。對該攻擊的掩護和視線以起源角色的位置來計算。如{@b 爆發}的效果持續，它會與作為中心角色一同移動。"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

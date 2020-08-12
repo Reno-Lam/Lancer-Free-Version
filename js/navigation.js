@@ -48,16 +48,9 @@ class NavBar {
 		const ulComp = addDropdown(navBar, FMT("section_4"));
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
-		addLi(ulComp, "document.html", FMT("section_4_welcome"), true, "getting_started");
+		addLi(ulComp, "document.html", FMT("section_4"), true, "compendium");
 		addLi(ulComp, "talents.html", FMT("talents"));
-		addLi(ulComp, "document.html", FMT("section_4_gear"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_pilot_gear"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_licensing"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_GMS"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_IPSN"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_SSC"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_Horus"), true, "getting_started");
-		addLi(ulComp, "document.html", FMT("section_4_HA"), true, "getting_started");
+		addLi(ulComp, "tags.html", FMT("tags"));
 
 		// License
 		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");

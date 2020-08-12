@@ -1,0 +1,80 @@
+{
+	"reference": {
+		"name": "Section 4: Compendium",
+		"id": "compendium",
+		"contents": [
+			{
+				"translate_name": "",
+				"name": "Talents",
+				"headers": [
+				]
+			},
+			{
+				"translate_name": "",
+				"name": "Gear and Systems",
+				"headers": [
+					{ "name": "Gear Tags" ,
+					{ "name": "Artificial Intelligence" }
+				]
+			},
+			{
+				"name": "Pilot Gears",
+				"headers": [
+					{ "name": "Archaic Weapons" },
+					{ "name": "Alloy/Composite Weapons (Melee)" },
+					{ "name": "Signature Weapons (Ranged)" },
+					{ "name": "Hardsuits (Armor)" }
+				]
+			},
+			{
+				"name": "Introduction to Licensing",
+				"headers": [
+					{ "name": "Leveling Up" },
+					{ "name": "The Big Four" }
+				]
+			},
+			{
+				"name": "General Massive Systems",
+				"headers": [
+					{ "name": "GMS Core Bonuses" },
+					{ "name": "GMS Mech Weapons" },
+					{ "name": "GMS Flight Systems" }
+				]
+			},
+			{
+				"name": "IPS-Northstar",
+				"headers": [
+					{ "name": "IPS-N Core Bonuses" }
+				]
+			},
+			{
+				"name": "Smith-Shimano Corpro",
+				"headers": [
+					{ "name": "SSC Core Bonuses" }
+				]
+			},
+			{
+				"name": "HORUS",
+				"headers": [
+					{ "name": "HORUS Core Bonuses" }
+				]
+			},
+			{
+				"name": "Harrison Armory",
+				"headers": [
+					{ "name": "HA Core Bonuses" }
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"name": "",
+			"entries": [
+				""
+			]
+		}
+	]
+}
