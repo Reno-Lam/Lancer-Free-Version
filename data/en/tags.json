@@ -1,0 +1,11 @@
+{
+	"tags": [
+		{
+			"type": "Weapon",
+			"name": "Accurate",
+			"desc": [
+				"Attacks made with this weapon receive <b>+1&#8853;</b>."
+			]
+		}
+	]
+}

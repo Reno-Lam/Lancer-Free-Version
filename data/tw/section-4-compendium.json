@@ -132,6 +132,12 @@
 						"當標籤後附有{@b X}的話，{@b X}就是與之相關的數值（如{@b 裝甲}、傷害、空間）。",
 						"注意特例勝於通例這點。這代表如果特定系統與這裡的規則有異的話，你該使用該系統特有的特殊規則。",
 						{
+							"type": "quote",
+							"entries": [
+								"譯註：為方便查閱，武器大小、類型、傷害和樣式以外的標籤列表和說明已移至{@link 相應資料分頁|https://reno-lam.github.io/Lancer-Free-Version/tags.html}。"
+							]
+						},
+						{
 							"type": "entries",
 							"translate_name": "武器標籤",
 							"name": "Weapon Tags",
