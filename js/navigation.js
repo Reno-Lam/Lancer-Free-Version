@@ -34,6 +34,7 @@ class NavBar {
 		// Mech Combat
 		const ulCombat = addDropdown(navBar, FMT("section_3"));
 		addLi(ulCombat, "document.html", FMT("section_3"), true, "mech_combat");
+		addLi(ulCombat, "actions.html", FMT("actions"));
 		addLi(ulCombat, "effects.html", FMT("effects"));
 		addLi(ulCombat, "terminology.html", FMT("terminology"));
 		

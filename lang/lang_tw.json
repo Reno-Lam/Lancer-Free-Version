@@ -52,12 +52,14 @@
 "section_2": "任務和戰場內外",
 "section_3": "機甲戰鬥",
 
+"actions": "動作",
 "effects": "狀態和狀況",
 "terminology": "戰鬥術語",
 
 "section_4": "彙編",
 
 "list_name": "名稱",
+"list_type": "類型",
 
 "Trigger": "觸發",
 "Effect": "效果",

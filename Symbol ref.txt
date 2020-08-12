@@ -15,3 +15,7 @@ Burst		◈	&#9672;
 
 {@b 
 {@i 
+
+<b>
+<i>
+<ul><li>Coffee</li><li>Tea</li></ul>
