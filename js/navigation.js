@@ -51,6 +51,7 @@ class NavBar {
 		addLi(ulComp, "document.html", FMT("section_4"), true, "compendium");
 		addLi(ulComp, "talents.html", FMT("talents"));
 		addLi(ulComp, "tags.html", FMT("tags"));
+		addLi(ulComp, "gears.html", FMT("gears"));
 
 		// License
 		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");

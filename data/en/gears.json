@@ -1,0 +1,13 @@
+{
+	"gears": [
+		{
+			"type": "Limited",
+			"name": "Corrective",
+			"desc": [
+				"<b>Limited 1, Full Action</b>",
+				"<i>This clear, plastic-like sheet can be placed over the wounds of severely injured pilots. It instantly begins to stabilize them, injecting medicine and deploying nanites to stitch wounds shut.</i>",
+				"Expend a charge to apply correctives to <b>DOWN AND OUT</b> pilots, immediately bringing them back to consciousness at <b>1 HP</b>."
+			]
+		}
+	]
+}
