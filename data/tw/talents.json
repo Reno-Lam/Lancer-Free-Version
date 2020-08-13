@@ -39,7 +39,8 @@
 						"在你的回合，你能夠以一個{@b 快速動作}來啟動推進器。如果你在回合結束時仍在{@b 飛行}，你可以指定一個位於視線範圍內，且{@b 距離}不大於你的{@b 速度值}的角色，並獲得以下的反應動作：",
 						{
 							"type": "actionBlock",
-							"translate_name": "超音速", "name": "Supersonic",
+							"translate_name": "超音速",
+							"name": "Supersonic",
 							"action": "反應",
 							"frequency": "每輪一次",
 							"trigger": "你的目標結束其回合時。",

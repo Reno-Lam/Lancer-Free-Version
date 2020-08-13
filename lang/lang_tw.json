@@ -62,6 +62,9 @@
 "list_type": "類型",
 "list_user": "能使用者",
 "list_affected": "受影響者",
+"list_mech": "機甲",
+"list_maker": "生產商",
+"list_role": "定位",
 
 "Trigger": "觸發",
 "Effect": "效果",
@@ -69,6 +72,8 @@
 "talents": "天賦",
 "tags": "標籤",
 "gears": "駕駛員裝備",
+"core_bonuses": "核心加成",
+"mechs": "機甲",
 
 "...": "..."
 

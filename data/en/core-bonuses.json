@@ -1,0 +1,12 @@
+{
+	"core_bonuses": [
+		{
+			"maker": "GMS",
+			"name": "Auto-stabilizing Hardpoints",
+			"desc": [
+				"<i>Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.</i>",
+				"Choose one mount. Weapons attached to this mount gain <b>+1&#8853;</b>."
+			]
+		}
+	]
+}

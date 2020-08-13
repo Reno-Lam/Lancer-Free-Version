@@ -62,13 +62,18 @@
 "list_type": "Type",
 "list_user": "Usable by:",
 "list_affected": "Can affect:",
+"list_mech": "Mech",
+"list_maker": "Manufacturer",
+"list_role": "Role",
 
 "Trigger": "Trigger",
 "Effect": "Effect",
 
 "talents": "Talents",
 "tags": "Tags",
-"tags": "Pilot Gears",
+"gears": "Pilot Gears",
+"core_bonuses": "Core Bonuses",
+"mechs": "Mechs",
 
 "...": "..."
 
