@@ -31,6 +31,7 @@
 "none": "None",
 "msg_copylink": "Copy link to clipboard",
 
+"separator": ", ",
 
 "site_title": "Lancer - Free version",
 "site_desc": "Chinese Translation Site",
@@ -66,8 +67,8 @@
 "list_maker": "Manufacturer",
 "list_role": "Role",
 
-"Trigger": "Trigger",
-"Effect": "Effect",
+"Trigger": "Trigger: ",
+"Effect": "Effect: ",
 
 "talents": "Talents",
 "tags": "Tags",

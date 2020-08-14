@@ -23,6 +23,7 @@ UrlUtil.PG_TO_RENDER_FUNC = function (page){
 Renderer._customTypeRender = function (type, entry, textStack, meta, options){
 	switch(type){
 		case "actionBlock": this._renderActionBlock(entry, textStack, meta, options); break;
+		case "reactionBlock": this._renderReactionBlock(entry, textStack, meta, options); break;
 	}
 }
 Renderer._renderActionBlock = function (entry, textStack, meta, options){
@@ -45,6 +46,25 @@ Renderer._renderActionBlock = function (entry, textStack, meta, options){
 	textStack[0] += actionBlock;
 };
 
+Renderer._renderReactionBlock = function (entry, textStack, meta, options){
+	const renderer = Renderer.get();
+	var reactionBlock = "";
+	if (entry.name != null) {
+		var name = entry.translate_name? entry.translate_name: entry.name;
+		renderer._handleTrackTitles(entry.name);
+		reactionBlock += `<div class="reactionBlock__title" style="background: #0B7675;color:#FFFFFF;">
+							<span class="rd__h--2-inset" style="font-size: 1.1em;" data-title-index="${renderer._headerIndex++}" ${renderer._getEnumeratedTitleRel(entry.name)}>
+								<span class="entry-title-inner" book-idx="${entry.name.toLowerCase()}">
+									${name}
+								</span>
+							</span>
+							<div style="font-size:0.9em;font-weight:normal;margin-top:0.2em;">${[ entry.action , entry.frequency ].join(FMT("separator"))}</div>
+						</div>`;
+		reactionBlock += `<div class="reactionBlock__trigger" style="background: #FFFFFF;color:#000000;"> <b>${FMT("Trigger")}</b>${entry.trigger} </div>`;
+		reactionBlock += `<div class="reactionBlock__content" style="background: #E7F1F1;color:#000000;"> <b>${FMT("Effect")}</b>${entry.effect} </div>`;
+	}
+	textStack[0] += reactionBlock;
+};
 
 
 // Here you can customize the display of each data

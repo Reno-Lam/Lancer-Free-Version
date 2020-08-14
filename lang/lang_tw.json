@@ -31,6 +31,7 @@
 "none": "無",
 "msg_copylink": "複製段落連結",
 
+"separator": "、",
 
 "site_title": "《Lancer》規則書（免費版）",
 "site_desc": "中文翻譯分享站",
@@ -66,8 +67,8 @@
 "list_maker": "生產商",
 "list_role": "定位",
 
-"Trigger": "觸發",
-"Effect": "效果",
+"Trigger": "觸發：",
+"Effect": "效果：",
 
 "talents": "天賦",
 "tags": "標籤",
