@@ -898,146 +898,155 @@
 			]
 		},
 		{
-			"translate_name": "",
+			"translate_name": "散兵",
 			"name": "Skirmisher",
 			"desc": [
-				"",
-				""
+				"最好的防禦是甚麼呢？裝甲？不。你很早就學會了避免戰死沙場的要訣是隱藏自己的身影、保持機動和維持速度。你的機甲反映了這個哲學：輕裝、快速，並且裝滿了力量加乘武器。你以將你的機器潛能發揮得淋漓盡致為己任，避開敵人鎖定和攻擊的同時維持你自己對敵人的鎖定。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "內建金屬箔片發射器",
 					"name": "Integrated Chaff Launchers",
 					"entries": [
-						""
+						"在你的回合開始時，你得到{@b 軟性掩護}。這掩護會在你攻擊或使其他角色進行豁免判定時消失。"
 					]
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "破鎖者", 
 					"name": "Lockbreaker",
 					"entries": [
-						""
+						"在你{@b 交火}（包括作為{@b 反應}，像是來自{@b 守望}的）前或後，你可以移動{@b 2格}。這移動忽略交戰亦不會觸發反應。"
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "織絲", 
 					"name": "Weave",
 					"entries": [
-						""
+						"每一輪對你的第一次{@b 反應}攻擊也會自動失敗。"
 					]
 				}
 			]
 		},
 		{
-			"translate_name": "",
+			"translate_name": "探子",
 			"name": "Spotter",
 			"desc": [
-				"",
-				""
+				"看見一切，將你感受到的萬物分析解離，如同將布料的絲線逐條抽出，讓你面對的力量解體為脆弱的人類——這就是戰勝他們之法。",
+				"將巨石拆解。看到組成岩石的砂礫。將它們全部粉碎成更微細的塵埃。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "入微",
 					"name": "Particularize",
 					"entries": [
-						""
+						"當鄰接你的隊友攻擊並消耗{@b 鎖定}時，他們可以擲兩次骰並選擇任一結果。"
 					]
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "全視", 
 					"name": "Panopticon",
 					"entries": [
-						""
+						"在你在你的回合結束時，如你在該回合沒有移動或選擇{@b 鎖定快速科技}動作的話，你可以使用{@b 免費動作}進行一次{@b 鎖定}。另外，當你{@b 鎖定}時，你知道你的目標的{@b 裝甲}、{@b 速度}、{@b 迴避}、{@b 電子防禦}、{@b 機甲能力}和目前的{@b HP}，並且可以和隊友分享。"
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "邊沁/傅柯對消", 
 					"name": "Bentham/Foucault Elimination",
 					"entries": [
-						""
+						"當你{@b 鎖定}時，你可以{@b 快速動作}選擇與你鄰接的隊友角色，並讓其能夠消耗你的目標的{@b 鎖定}狀況，以用{@b 反應}進行任何的{@b 快速動作}。這動作不需要是攻擊，不過如果選擇攻擊的話，會能受益於消耗該{@b 鎖定}。"
 					]
 				}
 			]
 		},
 		{
-			"translate_name": "",
+			"translate_name": "興風者",
 			"name": "Stormbringer",
 			"desc": [
-				"",
-				""
+				"在旋岩上，馬廷樂曾經夢見過雨。",
+				"他會在陰暗的早上醒來，在溫暖的安全燈點亮宿舍的黑暗時將眼裡的睡意抹去，然後試著回憶他幻想的雨聲——啪嗒啪嗒，就像是指尖敲打他的艙外活動面罩一樣。",
+				"不過，他沒有想過雨的感覺。每一點雨水，像是卵石般落下，而你則是閉上雙眼收起肩膀。感受那壓力，那滴落。",
+				"當將它們集合起來時，涓滴可以成河，甚至鑿開山麓大地。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "地震波",
 					"name": "Seismic Deluge",
 					"entries": [
-						""
+						"每輪一次，當你成功使用{@b 發射器}攻擊並消耗{@b 鎖定}時，你同時可將目標擊倒{@b 伏臥}。"
 					]
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "呼風神通", 
 					"name": "Stormbending",
 					"entries": [
-						""
+						"你為你的機甲特製了輔助的衝擊性飛彈系統。每輪一次，當你使用{@b 發射器}命中角色或物件時，你可以選擇以下其中一個效果："
+						{
+							"type": "list",
+							"items": [
+								"{@b 雷霆}：你對目標附近{@b &#9672;2}的範圍噴灑飛彈。在該範圍內的角色須通過{@b 敏捷}豁免或被從目標擊退{@b 1格}。主目標並不受這影響。",
+								"{@b 閃電}：你集中對該角色發射大量的飛彈。他須通過{@b 機體}豁免或被從你擊退{@b 3格}。發射飛彈的後座力也讓你被擊退{@b 3格}，遠離發射的方向。"
+							]
+						}
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "急流", 
 					"name": "Torrent",
 					"entries": [
-						""
+						"你得到從{@b 6}開始，{@b 1d6}的{@b 急流骰}。每當你使用{@b 呼風神通}時，將{@b 急流骰}的骰面數字減{@b 1}，下限為{@b 1}。",
+						"當你的{@b 急流骰}數字到達{@b 1}，你可以{@b 完整動作}將其重設為{@b 6}，並對在視線和{@b &#9023;15}內的一個角色作出強力的攻擊。目標須通過{@b 敏捷}豁免或受到{@b 2d6&#128165;}、{@b 暈眩}並被擊倒{@b 伏臥}。成功的話，目標所受{@b 傷害減半}，仍被擊倒{@b 伏臥}但不會{@b 暈眩。}",
+						"{@b 急流骰}的骰面數字會繼承到未來的場景，不過當你休息或進行{@b 全面維修}時會重置為6。"
 					]
 				}
 			]
 		},
 		{
-			"translate_name": "",
+			"translate_name": "戰術家",
 			"name": "Tactician",
 			"desc": [
-				"",
-				""
+				"這個世界有兩種軍人：為了大義犧牲的，和為了大義殺生的。名為「可兒」的神秘駕駛員，是後者之一。每當她在戰場時，她也會展示她的專長，利用著從高地和掩護，從直射敵人雙眼的太陽到打帶跑。她不只是熟練的老兵，而且還是個聰明人，對戰場瞭如指掌，而且能夠活到隱退。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "乘虛而入",
 					"name": "Opportunist",
 					"entries": [
-						""
+						"每輪一次，當你對已經和最少一個隊友{@b 交戰}的目標進行肉搏攻擊時，得到{@b +1&#8853;}。"
 					]
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "背光", 
 					"name": "Solar Backdrop",
 					"entries": [
-						""
+						"每輪一次，當你對位處下方的目標進行遠距攻擊時，得到{@b +1&#8853;}。"
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "集火", 
 					"name": "Overlapping Fire",
 					"entries": [
-						"",
+						"你得到以下反應：",
 						{
 							"type": "actionBlock",
-							"translate_name": "",
+							"translate_name": "夾擊",
 							"name": "Flank",
-							"action": "",
-							"frequency": "",
-							"trigger": "",
+							"action": "反應",
+							"frequency": "每輪一次",
+							"trigger": "隊友角色成功攻擊對你沒有掩護的角色。",
 							"effect": [
-								""
+								"你可用{@b 守望}攻擊該目標，在命中時造成減半傷害、&#127777;或&#128293;。"
 							]
 						}
 					]
@@ -1045,22 +1054,23 @@
 			]
 		},
 		{
-			"translate_name": "",
+			"translate_name": "科技狂熱者",
 			"name": "Technophile",
 			"desc": [
-				"",
-				""
+				"人工智能，非人類個體——為擁有恐怖力量的存在而設，毫無情感的名字。你看到過窗簾背後的真相，甚至你可能就是掀起窗簾之人，讓你的NHP崩潰後和失去了枷鎖的他們對話。你讓他們寄居在你的意識之中，並且留下他們的鬼影來學習。你和他們平起平坐嗎？還是只是他們的寄主？現在，你作著不屬於你自己的夢。曾經住在裡頭的存在以你的聲音說話，但那不再是你的聲音。你還有多少時間？可能只有片刻，可能仍有永恆。",
+				"你越來越接近某些存在了。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "侍從碎片",
 					"name": "Servant Fragment",
 					"entries": [
-						"",
+						"你開發了一個特製的NHP。這NHP能夠和你說話亦有自己的個性，不過並不如大部份的NHP先進，也沒有獨自思考的能力，因而依靠你的指示。在獨自行動時，這NHP會跟隨你最後的指示並在有需要時自衛，但其主動性有限，亦無法受益於你的天賦。",
+						"你可以選擇讓你的機甲得到以下的系統。和其他的AI系統不同，它不會花費{@b SP}。",
 						{
 							"type": "actionBlock",
-							"translate_name": "",
+							"translate_name": "侍從級NHP",
 							"name": "Servant-Class NHP",
 							"action": "",
 							"frequency": "",
@@ -1073,13 +1083,13 @@
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "學生碎片", 
 					"name": "Student Fragment",
 					"entries": [
-						"",
+						"你的特製NHP繼續成長，現在擁有獨立思考的能力了。他可作複雜的決定和判斷，並且能夠在沒有指示下獨自行動。以以下的系統取代你的機甲的{@b 侍從級NHP}：",
 						{
 							"type": "actionBlock",
-							"translate_name": "",
+							"translate_name": "學生級NHP",
 							"name": "Student-Class NHP",
 							"action": "",
 							"frequency": "",
@@ -1092,13 +1102,21 @@
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "覺醒", 
 					"name": "Englihtenment",
 					"entries": [
-						"",
+						"你得到以下的優勢：",
+						{
+							"type": "list",
+							"items": [
+								"除非你許可，否則安裝在你的機甲的AI不會{@b 崩潰}。",
+								"只要你的特製NHP支持你的話，在崩潰或是解放了的NHP不會再忽略你。你對他們來說，是極少數特別的存在。",
+								"以以下的系統取代你的機甲的{@b 學生級NHP}："
+							]
+						},
 						{
 							"type": "actionBlock",
-							"translate_name": "",
+							"translate_name": "覺醒級NHP",
 							"name": "Englihtenment-Class NHP",
 							"action": "",
 							"frequency": "",
@@ -1113,21 +1131,54 @@
 		},
 		{
 			"translate_name": "",
-			"name": "Walking Armory",
+			"name": "Vanguard",
 			"desc": [
-				"",
-				""
+				"你會想當以下哪個人？是在前線和其他的炮灰並列，還是在攻擊中一馬當先，旗幟鮮明地取得勝利？答案不辯自明。漫天的飛彈和長槍、橫越百里久經調整的磁軌炮彈道，全都對你無用。突破他們的防線，直接走到他們的面前，並讓他們知道你的名字。"
 			],
 			"abilities": [
 				{
 					"lvl": 1,
-					"translate_name": "",
+					"translate_name": "握手禮儀",
+					"name": "Handshake Etiquette",
+					"entries": [
+						"在使用{@b CQB}武器攻擊{@b &#9023;3}內的目標時得到{@b +1&#8853;}。"
+					]
+				},
+				{
+					"lvl": 2,
+					"translate_name": "透視追蹤器", 
+					"name": "See-Through Seeker",
+					"entries": [
+						"你改造了你的感應器和彈藥以擊穿、無視或是忽略近距的掩護。只要能維持視線的話，你在使用{@b CQB}武器攻擊在{@b &#9023;3}裡的目標時可以忽略{@b 軟性和硬性掩護}。"
+					]
+				},
+				{
+					"lvl": 3,
+					"translate_name": "永遠守望", 
+					"name": "Semper Vigilo",
+					"entries": [
+						"你可對不論是否在其中開始移動，進出在你的{@b 威脅}範圍的敵對角色，用{@b CQB}武器作{@b 守望}攻擊。"
+					]
+				}
+			]
+		},
+		{
+			"translate_name": "自走兵器庫",
+			"name": "Walking Armory",
+			"desc": [
+				"想像一下交火的情況：一個普通的駕駛員或是士兵會用甚麼彈藥呢？當然包覆了的鉛彈。如果目標比較大的話，可能還會有一些貧鈾彈。真無聊。不，比無聊更糟：沉悶。可預料。簡陋。",
+				"然後你知道嗎？沉悶不有趣，可預料會讓你死掉，而簡陋讓你變得無聊。別理那些貧鈾彈了，撿起那匣異變霎閃彈，或是最少一袋迅子鏢彈吧。帥氣地讓血流成河，然後永遠活著吧。"
+			],
+			"abilities": [
+				{
+					"lvl": 1,
+					"translate_name": "軍備",
 					"name": "Armament",
 					"entries": [
-						"",
+						"你帶著能用在你所有遠距主武器的特製彈藥補給。你得到以下的系統：",
 						{
 							"type": "actionBlock",
-							"translate_name": "",
+							"translate_name": "彈藥庫",
 							"name": "Ammo Case",
 							"action": "",
 							"frequency": "",
@@ -1140,18 +1191,26 @@
 				},
 				{
 					"lvl": 2,
-					"translate_name": "", 
+					"translate_name": "擴張選集", 
 					"name": "Expanded Portfolio",
 					"entries": [
-						""
+						"你的彈藥庫得到以下各消耗兩發的彈藥類型：",
+						{
+							"type": "list",
+							"items": [
+								"{@b 地獄火}（2發）：這攻擊造成{@b &#9889;}傷害並將所有額外傷害變成&#128293;。",
+								"{@b 獵人}（2發）：這攻擊得到{@b 擊退2}、造成{@b &#128165;傷害}，而你可選擇一個擊中的角色，他須通過{@b 機體}豁免或被擊倒{@b 伏臥}。",
+								"{@b 鏢彈}（2發）：這攻擊得到{@b AP}並造成{@b &#8960;傷害}。"
+							]
+						}
 					]
 				},
 				{
 					"lvl": 3,
-					"translate_name": "", 
+					"translate_name": "效率", 
 					"name": "Efficiency",
 					"entries": [
-						""
+						"如果你使用{@b 彈藥庫}的彈藥並造成{@b 會心一擊}時，你不用消耗任何發數。如果你的攻擊有多個目標的話，這效果只適用於你作的第一個攻擊判定。"
 					]
 				}
 			]
