@@ -12,7 +12,7 @@ UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 UrlUtil.PG_TO_RENDER_FUNC = function (page){
 	switch(page){
 		case "data-page.html": return Renderer.exampleData.getCompactRenderedString;
-		case "talents.html": return Renderer.talent.getCompactRenderedString;
+		case "talents.html": return Renderer.ranked.getCompactRenderedString;
 		default: return null; 
 	}
 };
@@ -76,17 +76,22 @@ Renderer.exampleData = {
 };
 Renderer.generic = {
 	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 2});
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			${Renderer.general.getTr(entry.desc.map(text=>`<p>${text}</p>`).join(""))}
+			${Renderer.general.getTr(entry.tag)}
+			${Renderer.utils.getDividerTr()}
+			${Renderer.general.getTr(entry.desc.map(text=>`<p><i>${text}</i></p>`).join(""))}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	}
-
 };
-Renderer.talent = {
+Renderer.ranked = {
 	getCompactRenderedString: function (entry) {
-		var abilityStack = entry.abilities.map(a=>Renderer.talent.getTalentAbilityBlock(a));
+		var abilityStack = entry.abilities.map(a=>Renderer.ranked.getTalentAbilityBlock(a));
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
