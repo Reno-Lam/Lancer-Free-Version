@@ -38,10 +38,10 @@ Renderer._renderActionBlock = function (entry, textStack, meta, options){
 									${name}
 								</span>
 							</span>
-							<div style="font-size:0.9em;font-weight:normal;margin-top:0.2em;">${[ entry.action , entry.frequency ].join(", ")}</div>
+							<div style="font-size:0.9em;font-weight:normal;margin-top:0.2em;">${ entry.tag }</div>
 						</div>`;
-		actionBlock += `<div class="actionBlock__trigger"> <b>${FMT("Trigger")}</b>: ${entry.trigger} </div>`;
-		actionBlock += `<div class="actionBlock__content"> <b>${FMT("Effect")}</b>: ${entry.effect} </div>`;
+		actionBlock += `<div class="actionBlock__entries"> ${entry.entries}</div>`;
+		actionBlock += `<div class="actionBlock__desc"> <i>${entry.desc}</i> </div>`;
 	}
 	textStack[0] += actionBlock;
 };
@@ -111,20 +111,20 @@ Renderer.generic = {
 };
 Renderer.ranked = {
 	getCompactRenderedString: function (entry) {
-		var abilityStack = entry.abilities.map(a=>Renderer.ranked.getTalentAbilityBlock(a));
+		var rankStack = entry.ranks.map(a=>Renderer.ranked.getRankBlock(a));
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.general.getTr(entry.desc.map(text=>`<p><i>${text}</i></p>`).join(""))}
-			${abilityStack.join("")}
+			${rankStack.join("")}
 		`);
 	},
-	getTalentAbilityBlock: function(ability) {
+	getRankBlock: function(rank) {
 		var contentStack = [];
 		const renderer = Renderer.get();
-		renderer.recursiveRender({entries: ability.entries}, contentStack, {depth: 2});
+		renderer.recursiveRender({entries: rank.entries}, contentStack, {depth: 2});
 		return (`
-			${Renderer.utils.getEntryTitle("Lv "+ability.lvl+" - " + (ability.translate_name? ability.translate_name: ability.name))}
+			${Renderer.utils.getEntryTitle("Lv "+rank.lvl+" - " + (rank.translate_name? rank.translate_name: rank.name))}
 			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	}
