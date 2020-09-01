@@ -98,7 +98,7 @@ Renderer.generic = {
 	getCompactRenderedString: function (entry) {
 		const renderer = Renderer.get();
 		var contentStack = [];
-		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 2});
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
