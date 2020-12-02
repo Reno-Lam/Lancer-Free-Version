@@ -53,7 +53,7 @@ class NavBar {
 		addLi(ulComp, "tags.html", FMT("tags"));
 		addLi(ulComp, "gears.html", FMT("gears"));
 		addLi(ulComp, "core-bonuses.html", FMT("core_bonuses"));
-		addLi(ulComp, "mechs.html", FMT("mechs"));
+		addLi(ulComp, "https://docs.google.com/document/d/1cfhUYWEdRtaxZg9Wyw_k83SO9lxuXtvK0DvwPSyJamo/edit?usp=sharing", FMT("mechs"), true, "mechs");
 
 		// License
 		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");
