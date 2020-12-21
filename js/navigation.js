@@ -49,11 +49,11 @@ class NavBar {
 		//addLi(ulExample, "data-page.html", "Data-page Example");
 		//addDivider(ulExample);
 		addLi(ulComp, "document.html", FMT("section_4"), true, "compendium");
-		addLi(ulComp, "talents.html", FMT("talents"));
+		addLi(ulComp, "https://docs.google.com/document/d/14JzBrEp5geVu7k7teW65loe_Erl6QAnJNT01rrWBfjM/edit", FMT("talents"), true, "talents");
 		addLi(ulComp, "tags.html", FMT("tags"));
 		addLi(ulComp, "gears.html", FMT("gears"));
 		addLi(ulComp, "core-bonuses.html", FMT("core_bonuses"));
-		addLi(ulComp, "https://docs.google.com/document/d/1cfhUYWEdRtaxZg9Wyw_k83SO9lxuXtvK0DvwPSyJamo/edit?usp=sharing", FMT("mechs"), true, "mechs");
+		addLi(ulComp, "https://docs.google.com/document/d/1cfhUYWEdRtaxZg9Wyw_k83SO9lxuXtvK0DvwPSyJamo/edit", FMT("mechs"), true, "mechs");
 
 		// License
 		addLi(navBar, "document.html", FMT("title_license"), true, "licensing");
