@@ -137,7 +137,7 @@
 		},
 		{
 			"type": "額外",
-			"translate_name": "每回合X次",
+			"translate_name": "每輪X次",
 			"name": "X/Round",
 			"desc": [],
 			"entries": [
