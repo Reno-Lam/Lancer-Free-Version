@@ -114,7 +114,7 @@
 				{
 					"type": "quote",
 					"entries": [
-						"譯註：為方便查閱，天賦列表和說明已移至{@link 相應資料分頁|https://reno-lam.github.io/Lancer-Free-Version/talents.html}。"
+						"譯註：為方便查閱，天賦列表和說明已移至{@link 相應資料分頁|https://docs.google.com/document/d/14JzBrEp5geVu7k7teW65loe_Erl6QAnJNT01rrWBfjM/edit}。"
 					]
 				}
 			]
@@ -765,7 +765,13 @@
 					"translate_name": "GMS核心加成",
 					"name": "GMS Core Bonuses",
 					"entries": [
-						"不論牌照，駕駛員都能獲得這列表的核心加成。"
+						"不論牌照，駕駛員都能獲得這列表的核心加成。",
+						{
+							"type": "quote",
+							"entries": [
+								"譯註：為方便查閱，各生產商的核心加成列表和說明已移至{@link 相應資料分頁|https://reno-lam.github.io/Lancer-Free-Version/core-bonuses.html}。"
+							]
+						}
 					]
 				},
 				{
