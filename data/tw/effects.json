@@ -114,12 +114,12 @@
 		},
 		{
 			"type": "狀況",
-			"translate_name": "受擾",
+			"translate_name": "干擾",
 			"name": "Jammed",
 			"affected": "機、人",
 			"desc": [],
 			"entries": [
-				"{@b 受擾}的角色無法：",
+				"受{@b 干擾}的角色無法：",
 				{
 					"type": "list",
 					"items": [
